@@ -96,3 +96,53 @@ So, running the function at the interactive prompt would look like the following
 
 120
 
+## Reversing a String
+
+You can also use accumulators to built a string character by character.  We are going to look at a function below that uses this idea to reverse a string.  For example,
+
+```
+def reverse(s):
+    new_string = ""
+    for i in range(len(s)-1, -1, -1):
+        new_string = new_string + s[i]
+    return new_string
+```
+
+First of all, **len**\(s\) calculates the length \(number of characters including spaces\) of the string **s**.  A loop of the form,
+
+`for i in range(1, 7, 2)`
+
+intially sets **i** to a value of 1, then increases its value by 2 after each iteration, and ends before **i** reaches 7.  So **i** would take on the values 1, 3, and 5, with the loop iterating 3 times.  A loop of the form,
+
+`for i in range(5, 0, -1)`
+
+initially sets **i** to 5, then decreases its value by 1 after each iteration, and ends before **i** reaches 0.  So **i** would take on the values 5,4,3,2, and 1, with the loop iterating 5 times.  The loop given in the function above takes the form,
+
+`for i in range(len(s)-1, -1, -1)`
+
+which initializes the value of **i** to the length of the string minus 1.  For example, if s = 'albert', **len**\(s\) = 6.  So **i **would start at 6, decrease by one after each iteration, and end with a value of zero \(before reaching -1\).  So, **i** would take on the values 5,4,3,2,1, and 0.
+
+The characters in strings are accessed by index, where in our example,
+
+`s[0] = 'a'`
+
+`s[1] = 'l'`
+
+`s[2] = 'b'`
+
+`s[3] = 'e'`
+
+`s[4] = 'r'`
+
+`s[5] = 't'`
+
+So, running the function at the interactive prompt would look like the following:
+
+&gt;&gt; reverse\('albert'\)
+
+'trebla'
+
+&gt;&gt; factorial\('The quick brown fox'\)
+
+'xof nword kciuq ehT'
+
