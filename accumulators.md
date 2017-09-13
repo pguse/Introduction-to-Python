@@ -1,4 +1,4 @@
-# Using Accumulators
+# Accumulators - Part 1
 
 An accumulator is a variable that is used in a loop to construct a value using an iterative process.  It could act like a counter using addition, or perform exponentiation through repeated multiplication, or built a string character by character.  Here are some examples of accumulators in action.
 
@@ -136,7 +136,7 @@ The characters in strings are accessed by index, where in our example,
 
 `s[5] = 't'`
 
-Note:  The line,  **new\_string = ""** , sets the accumulator \(variable\) to the **empty string** initially.  
+Note:  The line,  **new\_string = ""** , sets the accumulator \(variable\) to the **empty string** initially.
 
 So, running the function at the interactive prompt would look like the following:
 
