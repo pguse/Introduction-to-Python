@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [An Overview](chapter1.md)
+* [Using Accumulators](accumulators.md)
+
