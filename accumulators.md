@@ -6,12 +6,15 @@ An accumulator is a variable that is used in a loop to construct a value using a
 
 The act of adding consecutive integers e.g. 0 + 1 + 2 + 3 + 4 + 5 + ... can be thought of as an iterative process.  In each step you are adding - the only thing that changes is the number being added.  In Python, this can be done using a loop, as follows:
 
-| N = 5 |
-| :--- |
-| s = 0 |
-| for i in range\(1, N+1\): |
-|      s = s + i |
-| print s |
+> N = 5
+>
+> s = 0
+>
+> for i in range\(1, N+1\):
+>
+>     s = s + i
+>
+> print
 
 The result \(15\) that is printed is the sum of all integers between 1 and 5.  Here is a table that summarized how each variable changes values are the loop iterates.
 
@@ -30,10 +33,10 @@ The code above can be packaged as a function to make it easier to use.  For exam
 
 | def sum\(N\): |
 | :--- |
-|      s = 0 |
-|      for i in range\(1,N+1\): |
-|           s = s + i |
-|      return s |
+| s = 0 |
+| for i in range\(1,N+1\): |
+| s = s + i |
+| return s |
 
 So, running the function at the interactive prompt would look like the following:
 
@@ -46,8 +49,6 @@ So, running the function at the interactive prompt would look like the following
 6
 
 ## Factorials
-
-
 
 
 
