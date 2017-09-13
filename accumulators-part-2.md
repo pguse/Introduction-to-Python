@@ -7,6 +7,7 @@ A palindrome is a word or phrase that reads the same when read forwards or backw
 * range\(start, end, s\) generates a list from **start **to **end **in steps of size **s**, not including the value of end
 
 * if the values increase from **start **to **end**, **s **is positive, otherwise for decreasing values **s **is negative
+
 * **len**\(word\) calculates/return the length of a string called **word**.
 * the characters of a string are accessed using an index:  **word\[0\]** is the first character, **word\[1\]** the second character, ... **word\[len\(word\)-1**\] is the last character  \(because the index starts at zero\).
 * strings or characters are combined together using the **'+'** operator.  This is called **concatenation**.
@@ -22,7 +23,21 @@ print accumulator
 
 The output of this code would be:   albert
 
+## Exponentiation
 
+Using an exponent is really just a short form for repeated mulitiplication so exponentiation ca
+
+## Answers
+
+### Palindrome
+
+```
+def palindromize(word):
+	new_string = word
+	for i in range(len(word)-2, -1, -1):
+		new_string = new_string + word[i]
+	return new_string
+```
 
 
 
