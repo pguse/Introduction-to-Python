@@ -120,7 +120,7 @@ initially sets **i** to 5, then decreases its value by 1 after each iteration, a
 
 `for i in range(len(s)-1, -1, -1)`
 
-which initializes the value of **i** to the length of the string minus 1.  For example, if s = 'albert', **len**\(s\) = 6.  So **i **would start at 6, decrease by one after each iteration, and end with a value of zero \(before reaching -1\).  So, **i** would take on the values 5,4,3,2,1, and 0.
+which initializes the value of **i** to the length of the string minus 1.  For example, if s = 'albert', **len**\(s\) = 6.  So **i **would start at 5, decrease by one after each iteration, and end with a value of zero \(before reaching -1\).  So, **i** would take on the values 5,4,3,2,1, and 0.
 
 The characters in strings are accessed by index, where in our example,
 
@@ -136,6 +136,8 @@ The characters in strings are accessed by index, where in our example,
 
 `s[5] = 't'`
 
+Note:  The line,  **new\_string = ""** , sets the accumulator \(variable\) to the **empty string** initially.  
+
 So, running the function at the interactive prompt would look like the following:
 
 &gt;&gt; reverse\('albert'\)
@@ -145,4 +147,6 @@ So, running the function at the interactive prompt would look like the following
 &gt;&gt; factorial\('The quick brown fox'\)
 
 'xof nword kciuq ehT'
+
+To experiment with these functions, go to the following [link](https://repl.it/LDsU/5).
 
