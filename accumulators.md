@@ -79,7 +79,7 @@ So, running the function at the interactive prompt would look like the following
 A factorial is a specific type of repeated multiplication.  For example, 4! = 4x3x2x1 = 24, where 4! is read as 'four factorial'.  This can be computed using repeated multiplication.  For example,
 
 ```
-def factorial(n):
+def factorial(N):
     f = 1
     for i in range(1, N+1):
         f = f * i
