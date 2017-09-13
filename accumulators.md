@@ -10,11 +10,13 @@ The act of adding consecutive integers e.g. 0 + 1 + 2 + 3 + 4 + 5 + ... can be t
 >
 > s = 0
 >
-> for i in range\(1, N+1\):
+> **for** i **in** **range**\(1, N+1\):
 >
->     s = s + i
+> ```
+> s = s + i
+> ```
 >
-> print s
+> **print** s
 
 The result \(15\) that is printed is the sum of all integers between 1 and 5.  Here is a table that summarized how each variable changes values are the loop iterates.
 
