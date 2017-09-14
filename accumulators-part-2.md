@@ -33,7 +33,9 @@ Write a function called **palindromize\(word\)** that takes in a string called *
 
 ## Exponentiation
 
-Using an exponent is really just a short form for repeated mulitiplication so exponentiation can be thought of as an iterative process using an accumulator.  For example: 2^5 = 2x2x2x2x2
+Using an exponent is really just a short form for repeated mulitiplication so exponentiation can be thought of as an iterative process using an accumulator.  For example: 
+
+$$ 2^5 = 2 \times 2 $$
 
 Write a function called **exp\(x,n\)** that takes in a base **x **and exponent **n **and outputs/returns x^n
 
@@ -44,11 +46,11 @@ Here are some key ideas to remember:
 
 ## Babylon Square Root
 
-There are different methods/algorithms that you can use to calculate a square root without using a calculator.  Say we are trying to find the square root of N. Just like with the guess and check method, we start out with some guess R. Then we compute a new value for R as follows:
+There are different methods/algorithms that you can use to calculate a square root without using a calculator.  The Babylon Square Root method is one of the Say we are trying to find the square root of N. Just like with the guess and check method, we start out with some guess R. Then we compute a new value for R as follows:
 
-![](https://s0.wp.com/latex.php?latex=%5Cdisplaystyle+R%27+%3D+%5Cfrac%7BR+%2B+N%2FR%7D%7B2%7D.&bg=ffffff&fg=333333&s=0 "\displaystyle R&apos; = \frac{R + N/R}{2}.")
+![](https://s0.wp.com/latex.php?latex=\displaystyle+R'+%3D+\frac{R+%2B+N%2FR}{2}.&bg=ffffff&fg=333333&s=0 "\displaystyle R&apos; = \frac{R + N/R}{2}.")
 
-Repeating this process will result in closer and closer approximations to ![](https://s0.wp.com/latex.php?latex=%5Csqrt%7BN%7D&bg=ffffff&fg=333333&s=0 "\sqrt{N}").
+Repeating this process will result in closer and closer approximations to ![](https://s0.wp.com/latex.php?latex=\sqrt{N}&bg=ffffff&fg=333333&s=0 "\sqrt{N}").
 
 ## Answers
 
