@@ -74,10 +74,16 @@ The Leibniz formula for calculating the value of $$ \pi $$ is
 $$
  {   {\pi \over 4} -1 = - {1 \over 3} + {1 \over 5} - {1 \over 7} + ...}
 $$
+
+
 The general term of the series takes the form
+
+
 $$
- {1 \over (2n+1)} (-1)^n 
+ {1 \over (2n+1)} (-1)^n
 $$
+
+
 Write a function called **LeibnizPi\(n\)** that computes $$ \pi $$ according to the Leibniz formula, using **n **terms of the right-hand side series.
 
 Here are some ideas to remember:
@@ -118,6 +124,16 @@ def babylonSqrt(x,accuracy):
             break
         r = r_new
     return r_new
+```
+
+### Calculating Pi
+
+```
+def leibnizPi(n):
+	pi_over4 = 1
+	for i in range(1,n+1):
+		pi_over4 = pi_over4 + (-1)**i / (2.0*i + 1)
+	return (pi_over4 * 4)
 ```
 
 
