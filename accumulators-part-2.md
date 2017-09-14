@@ -88,5 +88,18 @@ def exp(x,n):
     return answer
 ```
 
+### Babylon Square Root
+
+```
+def babylonSqrt(x,accuracy):
+	r = x / 2.0
+	while True:
+		r_new = (r + x/r) / 2.0
+		if abs(r_new - r) < accuracy:
+			break
+		r = r_new
+	return r_new
+```
+
 
 
