@@ -91,6 +91,10 @@ Here are some ideas to remember:
 * The initial value of the **accumulator **should probably be 1
 * Use a **for-loop** since you know that the number of iterations will be **n**.
 
+## Euclid's Algorithm for Greatest Common Divisor \(GCD\)
+
+Euclid's algorithm is a technique for quickly finding the GCD of two integers
+
 ## Answers
 
 ### Palindromes
@@ -130,10 +134,10 @@ def babylonSqrt(x,accuracy):
 
 ```
 def leibnizPi(n):
-	pi_over4 = 1
-	for i in range(1,n+1):
-		pi_over4 = pi_over4 + (-1)**i / (2.0*i + 1)
-	return (pi_over4 * 4)
+    pi_over4 = 1
+    for i in range(1,n+1):
+        pi_over4 = pi_over4 + (-1)**i / (2.0*i + 1)
+    return (pi_over4 * 4)
 ```
 
 
