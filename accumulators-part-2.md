@@ -93,7 +93,28 @@ Here are some ideas to remember:
 
 ## Euclid's Algorithm for Greatest Common Divisor \(GCD\)
 
-Euclid's algorithm is a technique for quickly finding the GCD of two integers
+Euclid's algorithm is a technique for quickly finding the **GCD **of two integers **a **and **b**.  Remember, the **GCD **is the largest integer that divides into both integers **a **and **b**.  Here is how the algorithm works in a table format, assuming **a = 270**  and **b = 192** are the original integers.
+
+| a | b | a % b |
+| :---: | :---: | :---: |
+| 270 | 192 | 78 |
+| 192 | 78 | 36 |
+| 78 | 36 | 6 |
+| 36 | 6 | 0 |
+
+When **a % b == 0**, then the **GCD **is the current value of **b**.  In this case, the GCD is 6.
+
+Start with the original values of **a **and **b**, and then calculate **a % b**. Now reassign the values so that **a **takes on the old value of **b **and **b **takes on the value of **a % b**.
+
+Here are some ideas to remember:
+
+* When swapping values you often need to temporarily save a value in a different variable so that it doesn't get 'written over'.  In this case, you could use the following code to swap the values
+
+```
+swap = a % b
+a = b
+b = swap
+```
 
 ## Answers
 
