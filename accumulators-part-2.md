@@ -54,7 +54,7 @@ $$
 $$
 
 
-Repeating this process will result in closer and closer approximations to $$ \sqrt N $$.
+Repeating this process  \(feeding the new value of R back into the formula as the value R on the right-hand side\) will result in closer and closer approximations to $$ \sqrt N $$.
 
 Write a function called **babylonSqrt\(x, accuracy\)** that takes in a value **x **to take the square root of and the desired accuracy of the answer, and outputs the square root of **N **calculated by the Babylon method of square roots.
 
@@ -64,7 +64,26 @@ Here are some key ideas to remember:
 * There is a built-in function in Python called** abs\(\)** that determines the absolute value of a number e.g. **abs**\(-5\) = 5
 * If $$ \mid { R_{new} - R } \mid < accuracy $$, then you should break out of the loop using the **break **command
 * An example value for accuracy could be 0.001, so the $$ \sqrt N $$ is correct to 2 decimal places.
-* The initial value of the accumulator is the starting guess for $$ \sqrt N $$, which I would suggest could be N/2.
+* The initial value of the **accumulator **is the starting guess for $$ \sqrt N $$, which I would suggest could be N/2.
+
+## Calculating Pi
+
+The Leibniz formula for calculating the value of $$ \pi $$ is
+
+
+$$
+ {   {\pi \over 4} -1 = - {1 \over 3} + {1 \over 5} - {1 \over 7} + ...}
+$$
+The general term of the series takes the form
+$$
+ {1 \over (2n+1)} (-1)^n 
+$$
+Write a function called **LeibnizPi\(n\)** that computes $$ \pi $$ according to the Leibniz formula, using **n **terms of the right-hand side series.
+
+Here are some ideas to remember:
+
+* The initial value of the **accumulator **should probably be 1
+* Use a **for-loop** since you know that the number of iterations will be **n**.
 
 ## Answers
 
