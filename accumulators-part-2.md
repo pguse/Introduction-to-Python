@@ -46,11 +46,25 @@ Here are some key ideas to remember:
 
 ## Babylon Square Root
 
-There are different methods/algorithms that you can use to calculate a square root without using a calculator.  The Babylon Square Root method is one of the fastest-converging methods.  Say we are trying to find the square root of N. We start out with some guess R. Then we compute a new value for R as follows:
+There are different methods/algorithms that you can use to calculate a square root without using a calculator.  The Babylon Square Root method is one of the fastest-converging methods.  Say we are trying to find the square root of **N**. We start out with some guess R. Then we compute a new value for R as follows:
+
+
 $$
- R_{new} = { {R + {N \over R} } \over 2 } 
+ R_{new} = { {R + {N \over R} } \over 2 }
 $$
-Repeating this process will result in closer and closer approximations to $$ \sqrt N $$
+
+
+Repeating this process will result in closer and closer approximations to $$ \sqrt N $$.
+
+Write a function called **babylonSqrt\(x, accuracy\)** that takes in a value **x **to take the square root of and the desired accuracy of the answer, and outputs the square root of **N **calculated by the Babylon method of square roots.
+
+Here are some key ideas to remember:
+
+* Use a **while **loop, because you don't know ahead of time how many iterations will be required.
+* There is a built-in function in Python called** abs\(\)** that determines the absolute value of a number e.g. **abs**\(-5\) = 5
+* If $$ \mid { R_{new} - R } \mid < accuracy $$, then you should break out of the loop using the **break **command
+* An example value for accuracy could be 0.001, so the $$ \sqrt N $$ is correct to 2 decimal places.
+* The initial value of the accumulator is the starting guess for $$ \sqrt N $$, which I would suggest could be N/2.
 
 ## Answers
 
