@@ -4,4 +4,5 @@
 * [An Overview](chapter1.md)
 * [Accumulators - Part 1](accumulators.md)
 * [Accumulators - Part 2](accumulators-part-2.md)
+* [Resources](resources.md)
 
