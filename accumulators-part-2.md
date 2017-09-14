@@ -165,12 +165,12 @@ def leibnizPi(n):
 
 ```
 def gcd(a,b):
-	while a % b !=0:
-		swap = a % b
-		a = b
-		b = swap
-	return b
+    while a % b !=0:
+        swap = a % b
+        a = b
+        b = swap
+    return b
 ```
 
-
+To experiment with these functions, go to the following [link](https://repl.it/LDvT/14).
 
