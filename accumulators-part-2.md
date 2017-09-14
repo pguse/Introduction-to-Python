@@ -13,6 +13,7 @@ A palindrome is a word or phrase that reads the same when read forwards or backw
 * the characters of a string are accessed using an index:  **word\[0\]** is the first character, **word\[1\]** the second character, ... **word\[len\(word\)-1**\] is the last character  \(because the index starts at zero\).
 
 * strings or characters are combined together using the **'+'** operator.  This is called **concatenation**.
+
 * To build a string character by character using an accumulator, you would use the following code,
 
 ```
@@ -41,7 +42,13 @@ Here are some key ideas to remember:
 * The exponent indicates the number of iterations that the loop must make
 * The initial value of the accumulator should be 1 - just like in the factorial\(\) example in Part 1
 
+## Babylon Square Root
 
+There are different methods/algorithms that you can use to calculate a square root without using a calculator.  Say we are trying to find the square root of N. Just like with the guess and check method, we start out with some guess R. Then we compute a new value for R as follows:
+
+![](https://s0.wp.com/latex.php?latex=%5Cdisplaystyle+R%27+%3D+%5Cfrac%7BR+%2B+N%2FR%7D%7B2%7D.&bg=ffffff&fg=333333&s=0 "\displaystyle R&apos; = \frac{R + N/R}{2}.")
+
+Repeating this process will result in closer and closer approximations to ![](https://s0.wp.com/latex.php?latex=%5Csqrt%7BN%7D&bg=ffffff&fg=333333&s=0 "\sqrt{N}").
 
 ## Answers
 
@@ -59,10 +66,10 @@ def palindromize(word):
 
 ```
 def exp(x,n):
-	answer = 1
-	for i in range(n):
-		answer = answer * x
-	return answer
+    answer = 1
+    for i in range(n):
+        answer = answer * x
+    return answer
 ```
 
 
