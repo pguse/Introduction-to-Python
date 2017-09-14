@@ -11,6 +11,7 @@ A palindrome is a word or phrase that reads the same when read forwards or backw
 * **len**\(word\) calculates/return the length of a string called **word**.
 
 * the characters of a string are accessed using an index:  **word\[0\]** is the first character, **word\[1\]** the second character, ... **word\[len\(word\)-1**\] is the last character  \(because the index starts at zero\).
+
 * strings or characters are combined together using the **'+'** operator.  This is called **concatenation**.
 * To build a string character by character using an accumulator, you would use the following code,
 
@@ -24,13 +25,27 @@ print accumulator
 
 The output of this code would be:   albert
 
+Write a function called **palindromize\(word\)** that takes in a string called **word **as input and outputs/returns a palindrome as in the example above.  A couple hints:
+
+* The initial value of the accumulator should be **word**.
+* You should begin by adding the second last character of **word **to the accumulator and finish with the first character of **word**
+
 ## Exponentiation
 
-Using an exponent is really just a short form for repeated mulitiplication so exponentiation can be thought of as an iterative process using an accumulator.  For example:  2$$x = y$$
+Using an exponent is really just a short form for repeated mulitiplication so exponentiation can be thought of as an iterative process using an accumulator.  For example: 2^5 = 2x2x2x2x2
+
+Write a function called **exp\(x,n\)** that takes in a base **x **and exponent **n **and outputs/returns x^n
+
+Here are some key ideas to remember:
+
+* The exponent indicates the number of iterations that the loop must make
+* The initial value of the accumulator should be 1 - just like in the factorial\(\) example in Part 1
+
+
 
 ## Answers
 
-### Palindrome
+### Palindromes
 
 ```
 def palindromize(word):
@@ -38,6 +53,16 @@ def palindromize(word):
     for i in range(len(word)-2, -1, -1):
         new_string = new_string + word[i]
     return new_string
+```
+
+### Exponentiation
+
+```
+def exp(x,n):
+	answer = 1
+	for i in range(n):
+		answer = answer * x
+	return answer
 ```
 
 
