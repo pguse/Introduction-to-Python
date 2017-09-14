@@ -174,5 +174,5 @@ def gcd(a,b):
 
 ## Experiment with the Code
 
-To experiment with these functions, go to the following [link](https://repl.it/LDvT/14).
+To experiment with the code go to the following [link](https://repl.it/LDvT/14).
 
