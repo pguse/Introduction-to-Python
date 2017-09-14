@@ -48,9 +48,7 @@ Here are some key ideas to remember:
 
 There are different methods/algorithms that you can use to calculate a square root without using a calculator.  The Babylon Square Root method is one of the Say we are trying to find the square root of N. Just like with the guess and check method, we start out with some guess R. Then we compute a new value for R as follows:
 
-!\[\]\(\[[https://s0.wp.com/latex.php?latex=\displaystyle+R'+%3D+\frac{R+%2B+N%2FR}{2}.&bg=ffffff&fg=333333&s=0\]\(https://s0.wp.com/latex.php?latex=\displaystyle+R'+%3D+\frac{R+%2B+N%2FR}{2}.&bg=ffffff&fg=333333&s=0](https://s0.wp.com/latex.php?latex=\displaystyle+R'+%3D+\frac{R+%2B+N%2FR}{2}.&bg=ffffff&fg=333333&s=0]%28https://s0.wp.com/latex.php?latex=\displaystyle+R'+%3D+\frac{R+%2B+N%2FR}{2}.&bg=ffffff&fg=333333&s=0)\) "\displaystyle R' = \frac{R + N/R}{2}."\)
-
-Repeating this process will result in closer and closer approximations to ![](https://s0.wp.com/latex.php?latex=\sqrt{N}&bg=ffffff&fg=333333&s=0 "\sqrt{N}").
+Repeating this process will result in closer and closer approximations to $$ \sqrt N $$
 
 ## Answers
 
