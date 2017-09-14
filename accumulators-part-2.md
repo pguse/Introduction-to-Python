@@ -46,8 +46,10 @@ Here are some key ideas to remember:
 
 ## Babylon Square Root
 
-There are different methods/algorithms that you can use to calculate a square root without using a calculator.  The Babylon Square Root method is one of the Say we are trying to find the square root of N. Just like with the guess and check method, we start out with some guess R. Then we compute a new value for R as follows:
-
+There are different methods/algorithms that you can use to calculate a square root without using a calculator.  The Babylon Square Root method is one of the fastest-converging methods.  Say we are trying to find the square root of N. We start out with some guess R. Then we compute a new value for R as follows:
+$$
+ R_{new} = { {R + {N \over R} } \over 2 } 
+$$
 Repeating this process will result in closer and closer approximations to $$ \sqrt N $$
 
 ## Answers
