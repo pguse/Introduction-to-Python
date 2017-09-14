@@ -46,7 +46,7 @@ Here are some key ideas to remember:
 
 ## Babylon Square Root
 
-There are different methods/algorithms that you can use to calculate a square root without using a calculator.  The Babylon Square Root method is one of the fastest-converging methods.  Say we are trying to find the square root of **N**. We start out with some guess R. Then we compute a new value for R as follows:
+There are different iterative methods/algorithms that you can use to calculate a square root without using a calculator.  The Babylon Square Root method is one of the fastest-converging methods.  Say we are trying to find the square root of **N**. We start out with some guess R. Then we compute a new value for R as follows:
 
 
 $$
@@ -92,13 +92,13 @@ def exp(x,n):
 
 ```
 def babylonSqrt(x,accuracy):
-	r = x / 2.0
-	while True:
-		r_new = (r + x/r) / 2.0
-		if abs(r_new - r) < accuracy:
-			break
-		r = r_new
-	return r_new
+    r = x / 2.0
+    while True:
+        r_new = (r + x/r) / 2.0
+        if abs(r_new - r) < accuracy:
+            break
+        r = r_new
+    return r_new
 ```
 
 
