@@ -161,5 +161,16 @@ def leibnizPi(n):
     return (pi_over4 * 4)
 ```
 
+### Euclid's Algorithm for Greatest Common Divisor \(GCD\)
+
+```
+def gcd(a,b):
+	while a % b !=0:
+		swap = a % b
+		a = b
+		b = swap
+	return b
+```
+
 
 
