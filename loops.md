@@ -81,53 +81,56 @@ produces the output:
 5. Hello everyone!
 ```
 
-In this case, thevariableitake on values in steps of 2. We can also count backwards by doing the following:
+In this case, the variable** i** takes on values in steps of 2. We can also count backwards by doing the following:
 
-foriinrange\(4,1,-1\):
-
-print\( str\(i\) +“. Hello everyone!”\)
+```
+for i in range(4,1,-1):
+    print str(i) +“. Hello everyone!”
+```
 
 produces the output:
 
-1. Hello everyone!
-
-2. Hello everyone!
-
+```
+4. Hello everyone!
 3. Hello everyone!
+2. Hello everyone!
+```
 
-Again, thevariablei does not take on the minimum value of 1, but only goes down to it.
+Again, the variable** i **does not take on the minimum value of 1, but only goes down to it.
 
-The for-loop - without the range\(\) function:
+## The for-loop - without the range\(\) function:
 
-The for-loop can be used without the range\(\) function in a couple ways. It can be used topass through the characters in a stringas follows:
+The **for-loop** can be used without the **range**\(\) function in a couple ways. It can be used to pass through the characters in a string as follows:
 
+```
 name =“Ada”
-
-forchinname:
-
-print\( ch \)
+for ch in name:
+    print( ch )
+```
 
 produces the output:
 
+```
 A
-
 d
-
 a
+```
 
-It can also be used topass through the items in a listas follows:
+It can also be used to pass through the items in a **list **as follows:
 
-names = \[“Ada”, “Python”, “Pyret”\]
-
-forlanguageinnames:
-
-print\( language \)
+```
+names = [“Ada”, “Python”, “Pyret”]
+for language in names:
+    print language
+```
 
 produces the output:
 
+```
 Ada
-
 Python
-
 Pyret
+```
+
+
 
