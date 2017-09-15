@@ -63,7 +63,7 @@ They can be used in conditional statements such as **if/elif/else**.
 
 ```
 paid = True
-if x:
+if paid:
     print "Thank you for paying your bill."
 else:
     print "Please pay what you owe."
