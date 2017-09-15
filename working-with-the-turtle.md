@@ -36,10 +36,9 @@ Notes:
 
 * To use the turtle module it must first be imported as done on the first line using the **import** command.
 * All lines beginning with **\#** are comments.  _These are not read by the Python interpreter._
+* All instructions are performed line by line from top to bottom
 * The variable **tina** is an example of an **object** \(of type Turtle\).  The turtle module provides different **properties** that can be set for turtle objects.  For example:  shape, width, and color.  Notice the use of the **dot** \(operator\) when assigning these properties.  The turtle module also provides different **methods**/actions that the turtle can perform.  For example: forward, and right.  Again, notice the use of the **dot** when implementing these **methods**.
-* The line **def** square\(\) gives a name to our sequence of instructions that move the turtle.  In order to run these instructions, we must type square\(\) ... this is called a **function** in Python.
-
-
+* The line **def** square\(\) gives a name to our sequence of instructions that move the turtle.  In order to run these instructions, we must type square\(\) ... this is called a **function** in Python.  The line **def** square\(\) simply defines the function, whereas the line square\(\) actually runs the instructions contained within the function.
 
 
 
