@@ -12,13 +12,12 @@ print “Loop finished.”
 
 produces the output:
 
-> Hello everyone!
->
-> Hello everyone!
->
-> Hello everyone!
->
-> Loop finished
+```
+Hello everyone!
+Hello everyone!
+Hello everyone!
+Loop finished
+```
 
 The function **range**\(3\) causes the loop to repeat 3 times. Changing it to **range**\(5\) would repeat the loop 5 times. The variable** i **takes on the values 0, 1, and 2 during each repetition of the loop. For example,
 
@@ -29,11 +28,11 @@ for i in range(3):
 
 produces the output:
 
-> 0. Hello everyone!
->
-> 1.  Hello everyone!
->
->    2. Hello everyone!
+```
+0. Hello everyone!
+1. Hello everyone!
+2. Hello everyone!
+```
 
 The variable **i** can be used as a type of counter in the following way:
 
@@ -46,11 +45,11 @@ for i in range(3):
 
 produces the output:
 
+```
 0 0
-
 1 1
-
 3 2
+```
 
 The **range**\(3\) function can be modified in the following ways:
 
@@ -61,25 +60,26 @@ for i in range(1,4):
 
 produces the output:
 
-Hello everyone!
+```
+1. Hello everyone!
+2. Hello everyone!
+3. Hello everyone!
+```
 
-Hello everyone!
+Notice how the variable** i **now starts at a value of 1 but only goes up to the maximum value \(in this case 4\) but does not take on a value of 4. Also,
 
-Hello everyone!
-
-Noticehow thevariableinow starts at a value of 1 but only goesup tothe maximum value \(in this case 4\) but does not take on a value of 4. Also,
-
-foriinrange\(1,7,2\):
-
-print\( str\(i\) +“. Hello everyone!”\)
+```
+for i in range(1,7,2):
+    print str(i) +“. Hello everyone!”
+```
 
 produces the output:
 
+```
 1. Hello everyone!
-
-2. Hello everyone!
-
 3. Hello everyone!
+5. Hello everyone!
+```
 
 In this case, thevariableitake on values in steps of 2. We can also count backwards by doing the following:
 
