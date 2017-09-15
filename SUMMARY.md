@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [An Overview](chapter1.md)
 * [Working with Data](working-with-data.md)
 * [Loops](loops.md)
 * [Accumulators - Part 1](accumulators.md)
