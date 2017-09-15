@@ -1,4 +1,4 @@
-# The Turtle Module
+# Working with the Turtle
 
 A computer program is just a series of instructions given to a computer to perform.  Here is an example of a program in Python that uses the turtle module.
 
