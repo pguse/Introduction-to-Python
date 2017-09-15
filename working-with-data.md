@@ -18,8 +18,6 @@ There are a number of data types in Python that represent types of information t
 
 * Assignment Statement - Example: **price = 4.99**
 
-
-
 ### Strings:
 
 Strings are sequences of letters and numbers, or in other words, chunks of text. They are surrounded by two quotes. The part inside the quotes "" is a string literal, meaning that it should be literally copied and not interpreted as a command.
@@ -30,11 +28,23 @@ Strings are sequences of letters and numbers, or in other words, chunks of text.
 
 * Assignment Statement - Example: **lastName = "Guse"**
 
+* Find the length of String \(\# of characters\) using the len\(\) function:  Example: **len**\(lastName\) has a value of 4
 
+```
+>>> lastName = "Guse"
+>>> print lastName
+Guse
+>>> print lastName[0]
+G
+>>> print lastName[3]
+e
+>>> print len(lastName)
+4
+```
 
-### Booleans: 
+### Booleans:
 
-The values **True** and **False** are called Boolean values. They often result as the value of a conditional expression, even if you don't explicitly see them. See them in action by looking at the following examples in the interactive python shel
+The values **True** and **False** are called Boolean values. They often result as the value of a conditional expression, even if you don't explicitly see them. See them in action by looking at the following examples in the interactive python shell
 
 ```
 >>> print 5 < 10
@@ -47,7 +57,6 @@ False
 >>> x = 15
 >>> print x == 15
 True
-
 ```
 
 They can be used in conditional statements such as **if/elif/else**.
@@ -77,6 +86,5 @@ A tuple can store strings, integers, and other data types. Here is an example:
 3
 ```
 
-  
 
 
