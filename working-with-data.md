@@ -28,7 +28,7 @@ Strings are sequences of letters and numbers, or in other words, chunks of text.
 
 * Assignment Statement - Example: **lastName = "Guse"**
 
-* Find the length of String \(\# of characters\) using the len\(\) function:  Example: **len**\(lastName\) has a value of 4
+* Find the length of String \(\# of characters including spaces\) using the len\(\) function:  Example: **len**\(lastName\) has a value of 4
 
 ```
 >>> lastName = "Guse"
