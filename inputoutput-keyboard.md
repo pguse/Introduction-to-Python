@@ -1,4 +1,4 @@
-# Input/Ouput - Keyboard
+# Input/Output - Keyboard
 
 ## The input\(\) Function
 
@@ -104,7 +104,7 @@ whereas this code prints on the same line.
 >> for i in range(3): 
 ..   print("Hello", end=" ") 
 ..   
-Hello Hello Hello   
+Hello Hello Hello
 ```
 
 
