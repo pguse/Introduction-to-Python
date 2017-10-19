@@ -132,5 +132,48 @@ Python
 Pyret
 ```
 
+## The while-loop:
+
+The **while-loop** is used when you don't know the exact number of times that a loop needs to repeat.  It only repeats as long as a given condition is true.  Here is an example, where the loop will end only when the user enters a negative value.
+
+```
+n = 1
+while n > 0:
+  n = input("Enter a number: ")
+```
+
+Here is an example of a **while-loop** that will end when the user enters a 'secret' number.
+
+```
+secret = 42
+guess = -1
+while guess != secret:
+    guess = int( input("Guess the secret number: ") )
+```
+
+You can write a **while-loop** to repeat a fixed number of times by using an **accumulator** variable \(counter\).  This is similar to how a **for-loop** works.
+
+```
+counter = 1
+while counter <= 10:
+    print("Hello")
+    counter = counter + 1
+```
+
+This code will produce the following output.
+
+```
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+```
+
 
 
