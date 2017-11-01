@@ -17,10 +17,10 @@ produces the output
 ```
 75
 86
-70 
+70
 ```
 
-As with strings, the **index **of the **element **at the beginning of the list is 0 and increases by 1 as you move down the list.  Also, the code
+As with strings, the **index **of the **element **at the beginning of the list is **0** and increases by 1 as you move across the list.  Also, the code
 
 ```
 print( len( marks ) )
@@ -29,20 +29,18 @@ print( len( marks ) )
 outputs the length of the list
 
 ```
-8 
+8
 ```
 
 as with strings.
 
 ## Differences between Strings and Lists
 
-* Strings contain a sequence of characters, whereas **lists **can contain a **mixture of difference data types** \(integers, floats, strings, booleans, lists, etc.\).  For example,
+* Strings contain a sequence of characters, whereas **lists **can contain a **mixture of different data types** \(integers, floats, strings, booleans, lists, etc.\).  For example,
 
 `info = [ "Mr. Guse", 47, "Albert College", ["Calculus", "Advanced Functions", "Computer Science", "Physics"] ]`
 
-        is a list that contains a number of different data types.
-
-* Strings are **immutable **- characters cannot be replaced in string using the index.  **Lists are mutable** - elements can be replaced with other values and rearranged.  For example,
+* Strings are **immutable **- characters cannot be replaced in string using the index.  **Lists are mutable** - elements can be replaced with other values \(and rearranged\).  For example,
 
 ```
 info[1] = 48
@@ -55,13 +53,120 @@ name = "albert college"
 name[0] = "A"
 ```
 
-## Creating a List
+## Why Use Lists?
 
-* Assign a list to a variable in your program
+Lists are used when you want to **store a sequence of values** in memory, so that they can be **used later** in a program and **modified** if necessary.
+
+## How do you Create a List?
+
+* Assign the initial values of a list to a variable in your program
 
 ```
 marks = [75, 91, 82, 70, 88, 77, 90, 86]
 ```
 
+* **Use a loop** to assign values to a list.  For example, you may want the user to enter multiple values into a list.  For example,
 
+```
+marks = []                              # An empty list
+for i in range(8):
+    n = int( input("Enter a mark: ") )
+    marks.append(n)                     # append() is a list method that appends values to an existing list
+```
+
+* **Use a generator**.  Generators are expressions that allow you to fill a list according to a formula. The general form of a generator is as follows:
+
+  ```
+  [ expression for variable in sequence ]
+  ```
+
+  where`variable`_\_is the ID of some variable,_`sequence`_is a sequence of values, which takes the variable \(this can be a list, a string, or an object obtained using the function_`range`_\),_`expression`\_ — some expression, usually depending on the variable used in the generator. The list elements will be filled according to this expression.  Here are some examples of using a generator,
+
+```
+a = [ i**2 for i in range(5) ]
+print(a)
+```
+
+```
+  produces a list of squared whole numbers from 0 to 4
+```
+
+```
+[0, 1, 4, 9, 16]
+```
+
+```
+ **or**
+```
+
+```
+b = [ 2*i for i in [-5, 3, 11, 15] ]
+print(b)
+```
+
+```
+ produces a list that has elements which are double the values from the initial list
+```
+
+```
+[-10, 6, 22, 30]
+```
+
+```
+ **or**
+```
+
+```
+c = [ int(i) for i in [ '3', '6', '9', '11'] ]
+```
+
+```
+ produces a list of integer values converted from the initial list of strings.
+```
+
+* **Use the \* operator** to **repeat** a set of values in an existing list.  For example,
+
+```
+a = [0] * 5
+print(a)
+```
+
+produces a list containing 5 zeros, which may act as initial values.
+
+```
+[0, 0, 0, 0, 0]
+```
+
+## How do you Read Values from a List?
+
+If you want to scan through all of the values in a list, a **for-loop** can be used in two ways.
+
+#### Example \#1:  Without the range\(\) function
+
+```
+for value in [4, 3, -6, -8]:
+    print(value, end=":")
+```
+
+     produces the output
+
+```
+4:3:-6:-8
+```
+
+#### Example \#2:  Using the range\(\) function, the index and len\(\)
+
+```
+    a = [4, 3, -6, -8]
+    for i in range( len(a) ):
+         print(a[i], end=":")
+```
+
+     produces the output
+
+```
+4:3:-6:-8
+```
+
+The **advantage** of this method is that the variable **i** keeps track of the **position** \(index\) of each **element** in the list.  This index information is important in certain situations or problems.
 
