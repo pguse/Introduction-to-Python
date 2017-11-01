@@ -9,5 +9,5 @@
 * [Working with Lists](working-with-lists.md)
 * [Accumulators - Part 1](accumulators.md)
 * [Accumulators - Part 2](accumulators-part-2.md)
-* Working with Lists
+* [Working with Lists](working-with-lists.md)
 
