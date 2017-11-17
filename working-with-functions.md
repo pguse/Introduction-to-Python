@@ -20,11 +20,12 @@ def cube(n):
 **In general** a function definition takes the form
 
 ```
-def functionName(parameters):
+def functionName( parameters ):
     statement
     statement
     statement
+    return someValue
 ```
 
-
+which consists of the **name **of the function, **parameters **_\(separated by commas\)_** **that may/may not be used as **INPUT **to the function, and then statements that are indented as they are in a loop or if statement.  Finally, a value may/may not be returned as the **OUTPUT **of the function.
 
