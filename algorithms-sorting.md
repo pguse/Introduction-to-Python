@@ -6,10 +6,9 @@ Given a list of numbers called **myList**:
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 76 | 10 | 5 | -17 | 34 | 25 | 2 |
 
-  
 If we wanted to sort the list, what steps/**algorithm** could we use to arrange the numbers in order from least to greatest? One method is called the **selection sort**.
 
-### The selection sort \(algorithm\)
+### The Selection Sort \(algorithm\)
 
 The selection sort involves scanning the list from the beginning to find the position of the **minimum **value, then placing the minimum value at the beginning of the list, by **swapping **the two values. This is **repeated **now starting at the next position in the list. Find the **minimum **value in the remainder of the list and swap the two values. Repeat until you have passed through the entire list.
 
@@ -20,8 +19,8 @@ myList = [76,10,5,-17,34,25,2]
 
 index = 0
 for i in range( 1, len(myList) ):
-	if myList[i] < myList[index]:
-    	index = i
+    if myList[i] < myList[index]:
+        index = i
 print( myList[index] )
 ```
 
@@ -52,8 +51,8 @@ To sort the remainder of the list, the same algorithm is followed **starting at 
 ```
 index = 1
 for i in range( 2, len(myList) ):
-	if myList[i] < myList[index]:
-    	index = i
+    if myList[i] < myList[index]:
+        index = i
 print( myList[index] )
 
 swap = myList[1]
@@ -73,16 +72,16 @@ We continue to **repeat **these pieces of code from index 2 to 5, the second las
 
 ```
 for j in range(0, len(myList) ):
-	index = j
-	for i in range( j+1, len(myList) ):
-    	  if myList[i] < myList[index]:
-          	index = i
+    index = j
+    for i in range( j+1, len(myList) ):
+          if myList[i] < myList[index]:
+              index = i
 
-	swap = myList[j]
-	myList[j] = myList[index]
-	myList[index] = swap
+    swap = myList[j]
+    myList[j] = myList[index]
+    myList[index] = swap
 
-	print( myList )
+    print( myList )
 ```
 
 The** print\( myList \) **statement simply shows the list after each pass through.  It can be removed once you are convinced that the code works
