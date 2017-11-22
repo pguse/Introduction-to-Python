@@ -10,10 +10,8 @@ example, with a shift of 3, A would be replaced by D, B would become E, and so o
 
 Julius Caesar, who used it in his private correspondence.” ~ Wikipedia
 
-|  | ![](/assets/320px-Caesar3.png) |  |
-| :--- | :---: | :--- |
-
-
+| ![](/assets/320px-Caesar3.png) |
+| :---: |
 
 
 
