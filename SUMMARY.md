@@ -12,4 +12,5 @@
 * [Accumulators - Part 1](accumulators.md)
 * [Accumulators - Part 2](accumulators-part-2.md)
 * [Algorithms - Sorting](algorithms-sorting.md)
+* [Algorithms - Caesar Cipher](algorithms-caesar-cipher.md)
 
