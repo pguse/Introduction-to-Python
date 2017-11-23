@@ -62,19 +62,19 @@ We now need to shift each letter down the alphabet 3 steps, before we add it to 
 
 #### Method \#1:  Using the String method rfind\(\)
 
-The string method **rfind\(\)** returns the **index **of the first occurrence of the letter you provide as an argument, in the string you run the method on.  For example, the code
+The string method **rfind\(\)** returns the **index **of the first occurrence of the **letter **you provide as an **argument**, in the **string **you run the method on.  For example, the code
 
 ```
 alphabet.rfind('T')
 ```
 
-has the value **19 **\(count the letters in the alphabet yourself, starting at zero\).  We want to add 3 to this position, to move down the alphabet 3 steps.  So, the code
+has the value **19 **\(count the letters in _alphabet_ yourself, starting at zero\).  We want to add 3 to this position, to move down the alphabet 3 steps.  So, the code
 
 ```
 alphabet.rfind('T') + 3
 ```
 
-has the value **22**.  To produce the appropriate letter in the alphabet at position 22, we must use this value as the **index **of the string identifier _alphabet_.  This is done using the expression
+has the value **22**.  To produce the appropriate **letter **in the alphabet at position **22**, we must use this value as the **index **of the string identifier _alphabet_.  This is done using the expression
 
 ```
 alphabet[ alphabet.rfind('T') + 3 ]
@@ -92,7 +92,7 @@ which has the value **W**.  This is actually the letter that we want to add to t
 cipher = cipher + alphabet[ alphabet.rfind('T') + 3 ]
 ```
 
-So our code above becomes,
+Our codethen becomes,
 
 ```
 cipher = ""
