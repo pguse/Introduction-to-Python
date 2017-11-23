@@ -17,5 +17,3 @@ The Caesar cipher can easily be broken. Two situations could occur that would de
 
 
 
-
-
