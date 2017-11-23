@@ -124,7 +124,7 @@ for i in range( len(plainText) ):
     cipher = cipher + plainText[i]
 ```
 
-But for each letter we want to pass through the string _alphabet _and look for the **same letter**.  We can do this using another** for-loop** and an** if-statement** as follows
+But for each letter we want to pass through the string \_alphabet \_and look for the **same letter**.  We can do this using another** for-loop** and an** if-statement** as follows
 
 ```
 cipher = ""
@@ -135,19 +135,15 @@ for i in range( len(plainText) ):
             break
 ```
 
-Once we find the **same letter** in the string _alphabet_, we add the character in _alphabet _3 steps down from the current position to _cipher_.  The use of the statement **break **stops the inner loop from executing once we find the appropriate letter.
+Once we find the **same letter** in the string _alphabet_, we add the character in _alphabet \_3 steps down from the current position to \_cipher_.  The use of the statement **break **stops the inner loop from executing once we find the appropriate letter.
 
+#### IMPORTANT NOTE:
 
-
-##### IMPORTANT NOTE:
-
-Both methods described above have a terrible flaw.  If the letter we are looking at is near the end of the alphabet, adding three to its position might take us past the end of the _alphabet _string \(for example: X, Y, or Z\).  We can fix this by simply doubling the length of the alphabet string as follows:
+Both methods described above have a** terrible flaw**.  If the letter we are looking at is near the end of the alphabet, **adding 3 ** to its position might take us past the end of the _alphabet _string \(for example: X, Y, or Z\).  We can fix this by simply doubling the length of the _alphabet _string as follows:
 
 ```
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
 ```
 
-This guarantees that for **any shift less than 26**, we will no move beyond the end of the string _alphabet_.
-
-
+This guarantees that for **any shift less than 26**, we will not move beyond the end of the string _alphabet_.
 
