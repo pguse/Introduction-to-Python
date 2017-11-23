@@ -114,5 +114,40 @@ for i in range( len(plainText) ):
     cipher = cipher + alphabet[ alphabet.rfind( plainText[i] ) + 3 ]
 ```
 
+#### Method \#2:  Using nested for-loops
+
+Remember, to pass through the indices of the _plainText_ string we can use a** for-loop**.
+
+```
+cipher = ""
+for i in range( len(plainText) ):
+    cipher = cipher + plainText[i]
+```
+
+But for each letter we want to pass through the string _alphabet _and look for the **same letter**.  We can do this using another** for-loop** and an** if-statement** as follows
+
+```
+cipher = ""
+for i in range( len(plainText) ):
+    for j in range( len(alphabet) ):
+        if plainText[i] == alphabet[j]:
+            cipher = cipher + alphabet[j+3]
+            break
+```
+
+Once we find the **same letter** in the string _alphabet_, we add the character in _alphabet _3 steps down from the current position to _cipher_.  The use of the statement **break **stops the inner loop from executing once we find the appropriate letter.
+
+
+
+##### IMPORTANT NOTE:
+
+Both methods described above have a terrible flaw.  If the letter we are looking at is near the end of the alphabet, adding three to its position might take us past the end of the _alphabet _string \(for example: X, Y, or Z\).  We can fix this by simply doubling the length of the alphabet string as follows:
+
+```
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
+```
+
+This guarantees that for **any shift less than 26**, we will no move beyond the end of the string _alphabet_.
+
 
 
