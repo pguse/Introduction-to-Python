@@ -114,6 +114,12 @@ for i in range( len(plainText) ):
     cipher = cipher + alphabet[ alphabet.rfind( plainText[i] ) + 3 ]
 ```
 
+The output of _**print\(cipher\)**_ will be \(see **IMPORTANT NOTE** below\)
+
+```
+WKHTXLFNEURZQIRAMXPSVRYHUWKHODCBGRJ
+```
+
 #### Method \#2:  Using nested for-loops
 
 Remember, to pass through the indices of the _plainText_ string we can use a** for-loop**.
@@ -137,13 +143,59 @@ for i in range( len(plainText) ):
 
 Once we find the **same letter** in the string _alphabet_, we add the character in _alphabet \_3 steps down from the current position to \_cipher_.  The use of the statement **break **stops the inner loop from executing once we find the appropriate letter.
 
+The output of _**print\(cipher\)**_ will be \(see **IMPORTANT NOTE** below\)
+
+```
+WKHTXLFNEURZQIRAMXPSVRYHUWKHODCBGRJ
+```
+
 #### IMPORTANT NOTE:
 
-Both methods described above have a** terrible flaw**.  If the letter we are looking at is near the end of the alphabet, **adding 3 ** to its position might take us past the end of the _alphabet _string \(for example: X, Y, or Z\).  We can fix this by simply doubling the length of the _alphabet _string as follows:
+Both methods described above have a** terrible flaw**.  If the letter we are looking at is near the end of the alphabet, **adding 3 ** to its position might take us past the end of the _alphabet_ string \(for example: X, Y, or Z\).  We can fix this by simply doubling the length of the \_alphabet \_string as follows:
 
 ```
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
 ```
 
 This guarantees that for **any shift less than 26**, we will not move beyond the end of the string _alphabet_.
+
+#### What about Spaces and Punctuation?
+
+The string method _**isalpha\(\)**_ checks whether a string contains only alphabetic characters or not.  For example, the expression
+
+`"Albert College".isalpha()`
+
+has a value
+
+`False`
+
+because of the space, whereas the expression
+
+`"Albert".isalpha()`
+
+has a value
+
+`True`
+
+This expression can be used in an **if-statement** to perform different actions on alphabetic or non-alphabetic characters.  To maintain the spaces and punctuation in our cipher we can use the following code.
+
+```
+cipher = ""
+for i in range( len(plainText) ):
+    if plainText[i].isalpha():
+        for j in range( len(alphabet) ):
+            if plainText[i] == alphabet[j]:
+                cipher = cipher + alphabet[j+3]
+                break
+    else:
+        cipher = cipher + plainText[i]
+```
+
+The output of _print\(cipher\)_ will now be
+
+```
+WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ
+```
+
+
 
