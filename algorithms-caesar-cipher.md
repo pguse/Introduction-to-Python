@@ -60,24 +60,24 @@ THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
 
 We now need to shift each letter down the alphabet 3 steps, before we add it to _cipher_.  This can be done a couple ways:
 
-#### Method \#1:  Using the String method rfind\(\)
+#### Method \#1:  Using the String method find\(\)
 
-The string method **rfind\(\)** returns the **index **of the first occurrence of the **letter **you provide as an **argument**, in the **string **you run the method on.  For example, the code
+The string method **find\(\)** returns the **index **of the first occurrence of the **letter **you provide as an **argument**, in the **string **you run the method on.  For example, the code
 
 ```
-alphabet.rfind('T')
+alphabet.find('T')
 ```
 
 has the value **19 **\(count the letters in _alphabet_ yourself, starting at zero\).  We want to add 3 to this position, to move down the alphabet 3 steps.  So, the code
 
 ```
-alphabet.rfind('T') + 3
+alphabet.find('T') + 3
 ```
 
 has the value **22**.  To produce the appropriate **letter **in the alphabet at position **22**, we must use this value as the **index **of the string identifier _alphabet_.  This is done using the expression
 
 ```
-alphabet[ alphabet.rfind('T') + 3 ]
+alphabet[ alphabet.find('T') + 3 ]
 ```
 
 which is equivalent to the expression
@@ -86,7 +86,7 @@ which is equivalent to the expression
 alphabet[22]
 ```
 
-which has the value **W**.  This is actually the letter that we want to add to the string identifier _cipher_.  So we need to use an expression like
+which has the value **W**.  This is actually the letter that we want to add to the string identifier **cipher**.  So we need to use an expression like
 
 ```
 cipher = cipher + alphabet[ alphabet.rfind('T') + 3 ]
@@ -106,7 +106,7 @@ except the letter we want to encode is not always a _'T'_.  The letters we want 
 plainText[i]
 ```
 
-where _plainText\[0\] = "T"_, and _plainText\[1\] = 'H'_, and _plainText\[2\] = 'E'_, etc.  So, our final version of the code to create the correct cipher is
+where _plainText\[0\] = 'T'_', and _plainText\[1\] = 'H'_, and _plainText\[2\] = 'E'_, etc.  So, our final version of the code to create the correct cipher is
 
 ```
 cipher = ""
