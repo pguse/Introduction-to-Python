@@ -181,7 +181,7 @@ is a way to produce **formatted output in Python**.  The expression **{:3.2f}** 
 
 ## Determine the Letter that Occurs Most Often in a String
 
-To remember/store the letter that occurs the most often, the code above needs to be modified only slightly.
+To remember/store the letter that occurs the most often, the code above needs to be modified only slightly.  The code
 
 ```
 upperCaseText = text.upper()
@@ -192,7 +192,13 @@ for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
     if n > nMax:
         nMax = n
         mostFrequentLetter = letter
-    print("Most Frequent Letter: {} Frequency: {:3.2f} %".format(mostFrequentLetter, n / len(text) * 100 )
+    print("Most Frequent Letter: {} Frequency: {:3.2f} %".format(mostFrequentLetter, nMax / len(text) * 100 )
+```
+
+produces the output
+
+```
+Most Frequent Letter: E Frequency: 9.32 %
 ```
 
 
