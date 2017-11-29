@@ -174,7 +174,25 @@ n = upperCaseText.count(letter)
 **counts **the number of each **letter **in the string **upperCaseText **and stores the int value in the variable **n**.  The code
 
 ```
+print("Letter: {} Frequency: {:3.2f} %".format(letter, freq) )
+```
 
+is a way to produce **formatted output in Python**.  The expression **{:3.2f}**  causes the frequency to be 3 digits wide and include only 2 decimal places.
+
+## Determine the Letter that Occurs Most Often in a String
+
+To remember/store the letter that occurs the most often, the code above needs to be modified only slightly.
+
+```
+upperCaseText = text.upper()
+nMax = -1
+mostFrequentLetter = ""
+for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+    n = upperCaseText.count(letter)
+    if n > nMax:
+        nMax = n
+        mostFrequentLetter = letter
+    print("Most Frequent Letter: {} Frequency: {:3.2f} %".format(mostFrequentLetter, n / len(text) * 100 )
 ```
 
 
