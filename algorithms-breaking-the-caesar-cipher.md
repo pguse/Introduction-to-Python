@@ -192,7 +192,7 @@ for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
     if n > nMax:
         nMax = n
         mostFrequentLetter = letter
-    print("Most Frequent Letter: {} Frequency: {:3.2f} %".format(mostFrequentLetter, nMax / len(text) * 100 )
+print("Most Frequent Letter: {} Frequency: {:3.2f} %".format(mostFrequentLetter, nMax / len(text) * 100 )
 ```
 
 produces the output
