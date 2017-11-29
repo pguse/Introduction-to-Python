@@ -165,5 +165,17 @@ that indicates the frequency of each letter in the **text **string. Notice a cou
 upperCaseText = text.upper()
 ```
 
-converts the **text **string to all \_**uppercase **\_letters and stores the new string in the variable **upperCaseText**.  This is done because the alphabet we are looping through consists only of uppercase letters.
+converts the **text **string to all **uppercase **letters and stores the new string in the variable **upperCaseText**.  This is done because the alphabet we are looping through consists only of uppercase letters.  The code
+
+```
+n = upperCaseText.count(letter)
+```
+
+**counts **the number of each **letter **in the string **upperCaseText **and stores the int value in the variable **n**.  The code
+
+```
+
+```
+
+
 
