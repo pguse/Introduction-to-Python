@@ -201,5 +201,5 @@ produces the output
 Most Frequent Letter: E Frequency: 9.32 %
 ```
 
-The variable **nMax **keeps track of the _**number of each letter**_ that occurs the most often, at the current place in the loop.  The variable **mostFrequentLetter **stores the \_**letter **\_that occurs most frequently, at the current place in the loop.
+The variable **nMax **keeps track of the _**number of each letter**_ that occurs the most often, at the current place in the loop.  The variable **mostFrequentLetter **stores the **letter **that occurs most frequently, at the current place in the loop.
 
