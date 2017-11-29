@@ -1,6 +1,6 @@
 # Algorithms - Breaking the Caesar Cipher
 
-Any substitution cipher \(where letters are substituted for other letters - e.g. Caesar Cipher\) can be broken, given enough information. The reason for this is that certain letters in the English language appear more frequently than others. The following graph describes the relative frequencies of each letter in English usage
+Any substitution cipher \(where letters are substituted for other letters - e.g. Caesar Cipher\) can be broken, given enough information. The reason for this is that certain letters in the English language appear more frequently than others. The following graph describes the relative frequencies of each letter in English usage.
 
 |  | ![](/assets/480px-EnglishLanguageFrequency-slf.png) |  |
 | :--- | :---: | :--- |
@@ -171,7 +171,7 @@ converts the **text **string to all **uppercase **letters and stores the new str
 n = upperCaseText.count(letter)
 ```
 
-**counts **the number of each **letter **in the string **upperCaseText **and stores the int value in the variable **n**.  The code
+**counts **the number of each **letter **in the string **upperCaseText **and stores the **int **value in the variable **n**.  The code
 
 ```
 print("Letter: {} Frequency: {:3.2f} %".format(letter, freq) )
@@ -201,5 +201,5 @@ produces the output
 Most Frequent Letter: E Frequency: 9.32 %
 ```
 
-The variable **nMax **keeps track of the _**number of each letter**_ that occurs the most often, at the current place in the loop.  The variable **mostFrequentLetter **stores the _**letter **_that occurs most frequently, at the current place in the loop.
+The variable **nMax **keeps track of the _**number of each letter**_ that occurs the most often, at the current place in the loop.  The variable **mostFrequentLetter **stores the \_**letter **\_that occurs most frequently, at the current place in the loop.
 
