@@ -10,7 +10,7 @@ A simple method to attempt to break/decipher the Caesar Cipher is to find the mo
 
 ## Counting How Many of Each Letter Occurs in a String
 
-Suppose we have stored the first few paragraphs of Charles Dickens' story "A Christmas Carol" in a string called **text**.
+Suppose we have stored the beginning of Charles Dickens' story "A Christmas Carol" in a string called **text**.
 
 ```
 text = """Marley was dead, to begin with. There is no doubt whatever about that.
@@ -123,9 +123,9 @@ Notice the use of the **triple quotes** to store a **multi-line string** in Pyth
 ```
 upperCaseText = text.upper()
 for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-	n = upperCaseText.count(letter)
-	freq = n / len(text) * 100
-	print("Letter: {} Frequency: {:3.2f} %".format(letter, freq) )
+    n = upperCaseText.count(letter)
+    freq = n / len(text) * 100
+    print("Letter: {} Frequency: {:3.2f} %".format(letter, freq) )
 ```
 
 will produce the output
@@ -165,5 +165,5 @@ that indicates the frequency of each letter in the **text **string. Notice a cou
 upperCaseText = text.upper()
 ```
 
-converts the **text **string to all _**uppercase **_letters and stores the new string in the variable **upperCaseText**.  This is done because the alphabet we are looping through consists only of uppercase letters.
+converts the **text **string to all \_**uppercase **\_letters and stores the new string in the variable **upperCaseText**.  This is done because the alphabet we are looping through consists only of uppercase letters.
 
