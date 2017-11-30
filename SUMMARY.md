@@ -11,6 +11,6 @@
 * [Algorithms - Caesar Cipher](algorithms-caesar-cipher.md)
 * [Algorithms - Breaking the Caesar Cipher](algorithms-breaking-the-caesar-cipher.md)
 * [Algorithms - Sorting](algorithms-sorting.md)
-* [Accumulators - Part 1](accumulators.md)
-* [Accumulators - Part 2](accumulators-part-2.md)
+* [Algorithms - Accumulators - Part 1](accumulators.md)
+* [Algorithms - Accumulators - Part 2](accumulators-part-2.md)
 

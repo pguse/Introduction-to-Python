@@ -1,4 +1,4 @@
-# Accumulators - Part 1
+# Algorithms - Accumulators - Part 1
 
 An accumulator is a variable that is used in a loop to construct a value using an iterative process.  It could act like a counter using addition, or perform exponentiation through repeated multiplication, or built a string character by character.  Here are some examples of accumulators in action.
 

@@ -1,4 +1,4 @@
-# Accumulators - Part 2
+# Algorithms - Accumulators - Part 2
 
 ## Palindromes
 
