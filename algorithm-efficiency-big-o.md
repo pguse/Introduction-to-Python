@@ -26,19 +26,17 @@ The total number of comparison equals 6 + 5 + 4 + 3 + 2 + 1 = **21 comparisons**
 
 $$1+2+3 +...+n-1 = { n(n-1) \over 2}$$
 
-It turns out that in general, the number of comparisons equals $${n(n-1) \over 2}$$ for a list of size n. So, for our list of size 7,** 7\(6\)/2 = 21 **comparisons. When we are analyzing efficiency, we are really just concerned how the number of steps/comparisons changes as n becomes large. Since,
+It turns out that in general, the number of comparisons equals $${n(n-1) \over 2}$$ for a list of size n. So, for our list of size 7,** 7\(6\)/2 = 21 **comparisons. When we are analyzing efficiency, we are really just concerned **how the number of steps/comparisons changes as n becomes large**. Since,
 
 $${n(n-1) \over 2} = {1 \over 2} n^2 - {1 \over 2} n$$
 
-For large n, the $$n^2$$ term dominates this expression, so the \(worst-case\) efficiency of the selection sort is described by** O\(**$$n^2$$**\). **Similarly, the both the **bubble sort and the insertion sort** are considered** O\(**$$n^2$$**\) **algorithms or **quadratic**.
+For large n, the $$n^2$$ term dominates this expression, so the \(worst-case\) efficiency of the selection sort is described by** O\(**$$n^2$$**\). **Similarly, both the **bubble sort and the insertion sort** are considered** O\(**$$n^2$$**\) **algorithms or **quadratic**.
 
 ## Other Algorithms - Efficiency
 
 The** linear search** on a list of **length n** must in the **worst-case** search through **n items**.  As a result, its efficiency is described by **O\(n\)** or** linear**.  In comparison, the **binary search** has an efficiency described by** O\(**$$logn$$**\)**, because it takes a number of steps based on $$logn$$ on a list of length n.  For example, in a sorted list of length 100, it takes a maximum number of steps equal to $$log_2 (100) = 6.64 ~= 7$$.
 
 The efficiency of an algorithm can be visualized by looking a graphs of the functions $$y=x$$, $$y=x^2$$, and $$y=log(n)$$.  In general, a _linear** **_**O\(n\)** algorithm is** 'slower'** than a _quadratic_ algorithm** O\(**$$n^2$$**\)** which is** 'slower'** than a _logarithmic_ O\($$logn$$\) algorithm.
-
-
 
 ![](/assets/algorithmEfficiency.png)
 
