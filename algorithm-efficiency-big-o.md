@@ -1,8 +1,3 @@
----
-plugins:
-  - katex
----
-
 # Algorithm Efficiency:  Big O Notation
 
 ## Example:  Selection Sort - Efficiency
@@ -52,6 +47,4 @@ The** linear search** on a list of **length n** must in the **worst-case** searc
 The efficiency of an algorithm can be visualized by looking at graphs of the functions $$y=x$$, $$y=x^2$$, and $$y=log(n)$$.  In general, a _linear** **_**O\(n\)** algorithm is** 'slower'** than a _quadratic_ algorithm** O\(**$$n^2$$**\)** which is** 'slower'** than a _logarithmic_ O\($$logn$$\) algorithm for large values of n.
 
 ![](/assets/algorithmEfficiency.png)
-
-
 
