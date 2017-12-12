@@ -34,5 +34,7 @@ For large n, the $$n^2$$ term dominates this expression, so the \(worst-case\) e
 
 ## Other Algorithms - Efficiency
 
-The** linear search** on a list of **length n** must in the **worst-case** search through **n items**.  As a result, its efficiency is described by **O\(n\)** or** linear**.  In comparison, the binary search 
+The** linear search** on a list of **length n** must in the **worst-case** search through **n items**.  As a result, its efficiency is described by **O\(n\)** or** linear**.  In comparison, the **binary search** has an efficiency described by** O\(**$$logn$$**\)**, because it takes a number of steps based on $$logn$$ on a list of length n.  For example, in a sorted list of length 100, it takes a maximum number of steps equal to $$log_2 (100) = 6.64 ~= 7$$.
+
+The efficiency of an algorithm can be visualized by looking a graphs of the functions $$y=x$$, $$y=x^2$$, and $$y=log(n)$$.
 
