@@ -19,7 +19,7 @@ The second time 5 values are checked/compared,
 Then, 4 values are checked, and so on ...
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | -17 | 2 | 5 | 76 | 34 | 25 | 10 |
 
 The total number of comparison equals 6 + 5 + 4 + 3 + 2 + 1 = 21 comparisons. For a general list containing n items. The number of comparisons is
