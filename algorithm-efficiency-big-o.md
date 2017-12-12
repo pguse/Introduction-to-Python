@@ -49,7 +49,7 @@ for large n, the $$n^2$$ term dominates this expression, so the \(worst-case\) e
 
 The** linear search** on a list of **length n** must in the **worst-case** search through **n items**.  As a result, its efficiency is described by **O\(n\)** or** linear**.  In comparison, the **binary search** has an efficiency described by** O\(**$$logn$$**\)**, because it takes a number of steps based on $$log(n)$$ on a list of length n.  For example, in a **sorted list of length 100**, it takes a maximum number of steps equal to $$log_2 (100) = 6.64 ~= 7$$.
 
-The efficiency of an algorithm can be visualized by looking at graphs of the functions $$y=x$$, $$y=x^2$$, and $$y=log(n)$$.  In general, a _quadratic_** O\(**$$n^2$$**\)**_ _algorithm is slower than  a  _linear** O\(n\)** _algorithm which is** 'slower'** than a_ logarithmic_** O\(**$$logn$$**\) **algorithm **for large values of n**.  Notice how the **number of iterations \(the y-axis\)** increases as the **number of elements \(the x-axis\)** increases.
+The efficiency of an algorithm can be visualized by looking at graphs of the functions $$y=x$$, $$y=x^2$$, and $$y=log(n)$$.  In general, a _quadratic_** O\(**$$n^2$$**\)**_ algorithm is slower than  a  linear** O\(n\)** algorithm which is** 'slower'** than a_ logarithmic** O\(**$$logn$$**\) **algorithm **for large values of n**.  Notice how the **number of iterations \(the y-axis\)** increases as the **number of elements \(the x-axis\)** increases.
 
 |  | ![](/assets/algorithmEfficiency.png) |  |
 | :--- | :--- | :--- |
