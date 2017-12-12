@@ -1,3 +1,8 @@
+---
+plugins:
+  - mathjax
+---
+
 # Algorithm Efficiency:  Big O Notation
 
 ## Example:  Selection Sort - Efficiency
