@@ -11,6 +11,7 @@
 * [Algorithms - Caesar Cipher](algorithms-caesar-cipher.md)
 * [Algorithms - Breaking the Caesar Cipher](algorithms-breaking-the-caesar-cipher.md)
 * [Algorithms - Sorting](algorithms-sorting.md)
+* [Algorithm Efficiency - Big O Notation](algorithm-efficiency-big-o.md)
 * [Algorithms - Accumulators - Part 1](accumulators.md)
 * [Algorithms - Accumulators - Part 2](accumulators-part-2.md)
 
