@@ -1,6 +1,6 @@
 ---
 plugins:
-  - mathjax
+  - katex
 ---
 
 # Algorithm Efficiency:  Big O Notation
