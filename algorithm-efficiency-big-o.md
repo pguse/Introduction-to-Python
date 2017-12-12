@@ -26,9 +26,9 @@ The total number of comparison equals 6 + 5 + 4 + 3 + 2 + 1 = 21 comparisons. Fo
 
 $$1+2+3 +...+n-1 = { n(n-1) \over 2}$$
 
-It turns out that in general, the number of comparisons equalsn\(n-1\)2for a list of size n. So, for our list of size 7, 7\(6\)/2 = 21 comparisons. When we are analyzing efficiency, we are really just concerned how the number of steps/comparisons changesas n becomes large. Since,
+It turns out that in general, the number of comparisons equals $${n(n-1) \over 2}$$ for a list of size n. So, for our list of size 7, 7\(6\)/2 = 21 comparisons. When we are analyzing efficiency, we are really just concerned how the number of steps/comparisons changesas n becomes large. Since,
 
-n\(n-1\)2=12n2-12n
+$${n(n-1) \over 2} = {1 \over 2} n^2 - {1 \over 2} n$$
 
-For large n, the n2term dominates this expression, so the \(worst-case\) efficiency of the selection sort is described byO\(n2\). Similarly, the both the bubble sort and the insertion sort are considered O\(n2\) algorithms.
+For large n, the $$n^2$$ term dominates this expression, so the \(worst-case\) efficiency of the selection sort is described byO\($$n^2$$\). Similarly, the both the bubble sort and the insertion sort are considered O\($$n^2$$\) algorithms.
 
