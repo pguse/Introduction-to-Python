@@ -30,5 +30,9 @@ It turns out that in general, the number of comparisons equals $${n(n-1) \over 2
 
 $${n(n-1) \over 2} = {1 \over 2} n^2 - {1 \over 2} n$$
 
-For large n, the $$n^2$$ term dominates this expression, so the \(worst-case\) efficiency of the selection sort is described by** O\(**$$n^2$$**\). **Similarly, the both the **bubble sort and the insertion sort** are considered** O\(**$$n^2$$**\) **algorithms.
+For large n, the $$n^2$$ term dominates this expression, so the \(worst-case\) efficiency of the selection sort is described by** O\(**$$n^2$$**\). **Similarly, the both the **bubble sort and the insertion sort** are considered** O\(**$$n^2$$**\) **algorithms or **quadratic**.
+
+## Other Algorithms - Efficiency
+
+The** linear search** on a list of **length n** must in the **worst-case** search through **n items**.  As a result, its efficiency is described by **O\(n\)** or** linear**.  In comparison, the binary search 
 
