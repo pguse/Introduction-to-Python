@@ -29,11 +29,7 @@ Then, **4 values** are checked, and so on ...
 
 The total number of comparison equals 6 + 5 + 4 + 3 + 2 + 1 = **21 comparisons**. For a general list containing n items. The number of comparisons is
 
-
-$$
-1 + 2 + 3 + ... + n = { {n (n-1) } \over 2}
-$$
-
+$1 + 2 + 3 + ... + n = { {n\(n-1\)} \over 2} $
 
 It turns out that in general, the number of comparisons equals $${n(n-1) \over 2}$$ for a list of size n. So, for our list of size 7,** 7\(6\)/2 = 21 **comparisons. When we are analyzing efficiency, we are really just concerned **how the number of steps/comparisons changes as n becomes large**. Since,
 
