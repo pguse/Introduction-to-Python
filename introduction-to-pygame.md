@@ -8,7 +8,7 @@ $ pip install pygame
 
 You don't need to type the dollar sign.  It is just a marker for the command line.  The **pip **program should download Pygame to your computer.  If no error messages appear, Pygame should be installed.  To test this, enter the Python interpreter and import Pygame as follows.
 
-![](/assets/importPygameTest.JPG)If there are no error messages, Pygame should be install properly.
+![](/assets/importPygameTest.JPG)If there are no error messages, Pygame should be installed properly.
 
 ## A First Program
 
