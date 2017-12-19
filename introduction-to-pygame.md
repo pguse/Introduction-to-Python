@@ -61,5 +61,5 @@ while running:
 
 ## Colours
 
-One thing you'll notice in the code above is that colours are defined using a set of 3 numbers.  These values represent the intensity of Red, Green, and Blue light in each pixel.  Each value can range from 0 to 255, with 0 representing 'off' and 255 representing full intensity.
+One thing you'll notice in the code above is that colours are defined using a set of 3 numbers.  These values represent the intensity of **Red**, **Green**, and **Blue **light in each pixel.  Each value can **range from 0 to 255**, with 0 representing 'off' and 255 representing full intensity.
 
