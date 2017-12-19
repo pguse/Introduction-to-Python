@@ -12,7 +12,7 @@ You don't need to type the dollar sign.  It is just a marker for the command lin
 
 ## A First Program
 
-A computer screen is made up of an array of tiny dots called pixels.  We are going to  write a program to draw one pixel.  In the Visual Code editor, type in the following program.  **Do not copy and paste**.  It is much better to type it out and correct your own syntax errors.
+A computer screen is made up of an array of tiny dots called pixels.  We are going to  write a program to draw **one pixel**.  In the Visual Studio Code editor, type in the following program.  **Do not copy and paste**.  It is much better to type it out and correct your own syntax errors.
 
 ```
 # first, let Python know we're using pygame
