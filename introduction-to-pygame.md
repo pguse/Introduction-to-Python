@@ -61,5 +61,5 @@ while running:
 
 ## Colours
 
-One thing you'll notice in the code above is that colours are defined using a set of 3 numbers.  These values represent the intensity of **Red**, **Green**, and **Blue **light in each pixel.  Each value can **range from 0 to 255**, with 0 representing 'off' and 255 representing full intensity.  The combination \(0,0,0\) represents **black **because all colours are off, while \(255,255,255\) represents **white **because all colours are fully on.
+One thing you'll notice in the code above is that colours are defined using a set of 3 numbers.  These values represent the intensity of **Red**, **Green**, and **Blue **light in each pixel.  Each value can **range from 0 to 255**, with 0 representing 'off' and 255 representing full intensity.  The combination \(0,0,0\) represents **black **because all colours are off, while \(255,255,255\) represents **white **because all colours are fully on.  To investigate other colours using the RGB model of colour, click on this [link ](https://www.rapidtables.com/web/color/RGB_Color.html)or just do an internet search for 'RGB Color'.
 
