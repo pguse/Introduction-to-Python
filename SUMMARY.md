@@ -14,4 +14,5 @@
 * [Algorithm Efficiency - Big O Notation](algorithm-efficiency-big-o.md)
 * [Algorithms - Accumulators - Part 1](accumulators.md)
 * [Algorithms - Accumulators - Part 2](accumulators-part-2.md)
+* [Introduction to Pygame](introduction-to-pygame.md)
 
