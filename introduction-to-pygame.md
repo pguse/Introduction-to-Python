@@ -63,3 +63,38 @@ while running:
 
 One thing you'll notice in the code above is that colours are defined using a set of 3 numbers.  These values represent the intensity of **Red**, **Green**, and **Blue **light in each pixel.  Each value can **range from 0 to 255**, with 0 representing 'off' and 255 representing full intensity.  The combination \(0,0,0\) represents **black **because all colours are off, while \(255,255,255\) represents **white **because all colours are fully on.  To investigate other colours using the RGB model of colour, click on this [link ](https://www.rapidtables.com/web/color/RGB_Color.html)or just do an internet search for 'RGB Color'.
 
+## Creating a Line
+
+To create a line, we can using a loop to plot lots of pixels with different x-coordinates as follows.
+
+```
+while running: 
+
+    screen.fill(black) 
+    
+    # Our for loop, for the width of the screen
+    for i in range(0, screenWidth):
+      # Our pixel draw function uses i to know the current value
+      pygame.gfxdraw.pixel(screen, i, screenHeight // 2, white) 
+    
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT: 
+            running = False
+
+    pygame.display.flip() 
+```
+
+When you run this program you should see a horizontal white line positioned in the middle of the screen.
+
+## Next Steps
+
+How would you plot a vertical line?
+
+How would you plot a diagonal line?  How would you plot the other diagonal line?
+
+## Challenge
+
+Modify the program so that it creates the following pattern.
+
+![](/assets/challengePygameIntro.png)
+
