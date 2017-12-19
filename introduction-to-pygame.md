@@ -71,26 +71,25 @@ To create a line, we can using a loop to plot lots of pixels with different x-co
 while running: 
 
     screen.fill(black) 
-    
+
     # Our for loop, for the width of the screen
     for i in range(0, screenWidth):
       # Our pixel draw function uses i to know the current value
       pygame.gfxdraw.pixel(screen, i, screenHeight // 2, white) 
-    
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT: 
             running = False
 
-    pygame.display.flip() 
+    pygame.display.flip()
 ```
 
 When you run this program you should see a horizontal white line positioned in the middle of the screen.
 
 ## Next Steps
 
-How would you plot a vertical line?
-
-How would you plot a diagonal line?  How would you plot the other diagonal line?
+* How would you plot a vertical line?
+* How would you plot a diagonal line?  How would you plot the other diagonal line?
 
 ## Challenge
 
