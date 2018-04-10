@@ -27,14 +27,13 @@ __str__(self)
 
 . It returns the string that represents a particular Fraction when you attempt to print it out.
 
-The unusual part about classes in Python is the wordself. In this example, the Fraction class represents any fraction. The wordselfrefers to the particular fraction you have created with this class. It must be used as the first argument in the definition of everymethodand in the names of each field. Note:The wordselfnever occurs when you actually call amethod.  
-
+The unusual part about classes in Python is the wordself. In this example, the Fraction class represents any fraction. The wordselfrefers to the particular fraction you have created with this class. It must be used as the first argument in the definition of everymethodand in the names of each field. Note:The wordselfnever occurs when you actually call amethod.
 
 Here is how to use the class:
 
 ![](https://lh3.googleusercontent.com/Bqy13Vb24ajiz8cgKBFO7Gv0mzr6RDlqeUp4jdKtJKLFhgxNcb1bpqjNIwumJYfou2_WTe1sjKNo1vQC0mi-WgbgcHQ1c_QRPrh7lRR1hvndnZnbibiAk10HMBNHjg0YYqXFjX47)
 
-Notice how a Fraction is created, using the word Fraction \(the name of the class\). 
+Notice how a Fraction is created, using the word Fraction \(the name of the class\).
 
 ```
 f1 = Fraction(1,2)
@@ -71,8 +70,6 @@ f1.prod(f2)
 
 produces a new Fraction object that the method simplify\(\) is then applied to.
 
-
-
 ## Using external files:
 
 All the files in this example:main.py,mymath.py, andfraction.pymust be contained in thesamefolder. In order to use the Fraction class inmain.py, the line
@@ -107,13 +104,9 @@ import mymath
 
 2. Create a new class called **Student** in a file named **student.py** \(see below\).
 
-
-
 ![](https://lh5.googleusercontent.com/ucDesuFZY9FtMTbRzKALneF1eR9nB7MGLgTZxnpC4C77R1r2JYdpTpGX3Fq68pjIkZedLuzskFhAYR2hhWVeEbs8rx4asi1dx6wacDafnjXrbZvCtiuFsdtlMER6sNNw6fZ7qdks)
 
-
-
-1. Create a **main.py** file that creates five Students, such as…
+    3.  Create a **main.py** file that creates five Students, such as…
 
 ```
 s1 = Student(“Jones”,“Brittany”,“10”,“Graham”,“Acton”)
@@ -121,15 +114,17 @@ s2 = Student(“Hodges”,“Alex”,“12”,“Bishop”,“Stacey”)
 s3 = Student(...
 ```
 
-2.  Create a list of the students. For example,
+    4.  Create a list of the students. For example,
 
-student\_body = \[s1, s2, s3, … \]
+```
+student_body = [s1, s2, s3, … ]
+```
 
-1. Challenge:Save your list of students, called student\_body to a file namedstudent\_body.txt. Your file should look like the following\(Notice the commas between each item\).
+**Challenge:**  Save your list of students, called **student\_body** to a file named **student\_body.txt**. Your file should look like the     following \(Notice the commas between each item\).
 
-| Jones, Brittany, 10, Graham, ActonHodges, Alex, 12, Bishop, Stacey  |
+| Jones, Brittany, 10, Graham, ActonHodges, Alex, 12, Bishop, Stacey |
 | :--- |
 
 
-Hint:You’ll need to create a String out of each set of Student data before writing it to the file.
+**Hint:** You’ll need to create a String out of each set of Student data before writing it to the file.
 
