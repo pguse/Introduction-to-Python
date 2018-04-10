@@ -15,4 +15,5 @@
 * [Algorithms - Sorting](algorithms-sorting.md)
 * [Algorithm Efficiency - Big O Notation](algorithm-efficiency-big-o.md)
 * [Algorithms - Accumulators - Part 1](accumulators.md)
+* [Working with Objects](working-with-objects.md)
 
