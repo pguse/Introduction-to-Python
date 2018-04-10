@@ -25,38 +25,38 @@ The other special Python function in this class is
 __str__(self)
 ```
 
-. It returns the string that represents a particular Fraction when you attempt to print it out.
+It **returns** the **string** that represents a particular **Fraction** when you attempt to print it out.
 
-The unusual part about classes in Python is the wordself. In this example, the Fraction class represents any fraction. The wordselfrefers to the particular fraction you have created with this class. It must be used as the first argument in the definition of everymethodand in the names of each field. Note:The wordselfnever occurs when you actually call amethod.
+The unusual part about classes in Python is the word **self**. In this example, the **Fraction** class represents any fraction. The word **self** refers to the particular fraction you have created with this class. It must be used as the **first argument** in the definition of every method and in the names of each field. Note: The word **self** never occurs when you actually call a **method**.
 
 Here is how to use the class:
 
 ![](https://lh3.googleusercontent.com/Bqy13Vb24ajiz8cgKBFO7Gv0mzr6RDlqeUp4jdKtJKLFhgxNcb1bpqjNIwumJYfou2_WTe1sjKNo1vQC0mi-WgbgcHQ1c_QRPrh7lRR1hvndnZnbibiAk10HMBNHjg0YYqXFjX47)
 
-Notice how a Fraction is created, using the word Fraction \(the name of the class\).
+Notice how a Fraction is created, using the word **Fraction** \(the name of the class\).
 
 ```
 f1 = Fraction(1,2)
 ```
 
-The values input to this method match those in the\_\_init\_\_function, because this is the method run when a Fraction is created. This is called creating aninstanceof the Fraction class or in other wordsf1, f2,andf3are calledobjectsof type Fraction.
+The values input to this method match those in the **\_\_init\_\_** function, because this is the method run when a **Fraction** is created. This is called creating an instance of the **Fraction** class or in other words f1, f2, and f3 are called **objects** of type **Fraction**.
 
-Notice how theproductof two Fractions is calculated.
+Notice how the product of two Fractions is calculated.
 
 ```
 f3 = f1.prod(f2)
 ```
 
-The dot operatoris used to call a method \(eg.prod\) on an object \(eg.f1\) of a class. The definition of theprodmethod is,
+The dot operator is used to call a method \(eg.prod\) on an object \(eg.f1\) of a class. The definition of the **prod** method is,
 
 ```
 def prod(self, f):
     return Fraction(self.a * f.a , self.b * f.b)
 ```
 
-It returns a Fraction with a new numerator \(self.a \* f.a\) and denominator \(self.b \* f.b\). The valueself.ais the numerator of the calling Fraction \(eg.f1in the example above\), whilef.ais the numerator of the Fraction input to theprodfunction \(eg.f2in the example above\).
+It **returns a Fraction** with a new numerator \(**self.a \* f.a**\) and denominator \(**self.b \* f.b**\). The value **self.a** is the numerator of the calling **Fraction** \(eg. f1 in the example above\), while **f.a** is the numerator of the **Fraction** input to the **prod** function \(eg.f2 in the example above\).
 
-Notice how you could apply two methods to a single Fraction object.
+Notice how you could apply two methods to a single **Fraction object**.
 
 ```
 f1.prod(f2).simplify()
@@ -68,7 +68,7 @@ The expression
 f1.prod(f2)
 ```
 
-produces a new Fraction object that the method simplify\(\) is then applied to.
+produces a new **Fraction** object that the method **simplify\(\)** is then applied to.
 
 ## Using external files:
 
@@ -78,15 +78,15 @@ All the files in this example:main.py,mymath.py, andfraction.pymust be contained
 from fraction import *
 ```
 
-is necessary. If we had instead usedimportfraction, expression
+is necessary. If we had instead used **import fraction**, expression
 
-Fraction\(1,2\) would have changed to fraction.Fraction\(1,2\)
+**Fraction\(1,2\)** would have changed to **fraction.Fraction\(1,2\)**
 
-Here is the module \(file\) mymath.py that contains the gcd \(greatest common divisor\) function.
+Here is the module \(file\) **mymath.py** that contains the **gcd** \(greatest common divisor\) function.
 
 ![](https://lh4.googleusercontent.com/ZN1KNlfXo5ZiWoKg_q6x-uIwteL9pxMfVynqDezgtvm9Z0WrmLYdftrIdZH5Z6xf7bZjlMLEDymFfD2V6ujw-5fhZi6ykOibMMy6F1Aom32HQcY0j0gFd7_VbWiadXaRyhUhy6OA)
 
-Notice how it is used in the Fraction class
+Notice how it is used in the **Fraction** class
 
 ```
 n = mymath.gcd(self.a, self.b)
