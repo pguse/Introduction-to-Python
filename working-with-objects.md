@@ -72,7 +72,7 @@ produces a new **Fraction** object that the method **simplify\(\)** is then appl
 
 ## Using external files:
 
-All the files in this example:main.py,mymath.py, andfraction.pymust be contained in thesamefolder. In order to use the Fraction class inmain.py, the line
+All the files in this example:  **main.py**, **mymath.py**, and **fraction.py** must be contained in the same folder. In order to use the Fraction class in **main.py**, the line
 
 ```
 from fraction import *
@@ -104,17 +104,17 @@ import mymath
 
 2. Create a new class called **Student** in a file named **student.py** \(see below\).
 
-![](https://lh5.googleusercontent.com/ucDesuFZY9FtMTbRzKALneF1eR9nB7MGLgTZxnpC4C77R1r2JYdpTpGX3Fq68pjIkZedLuzskFhAYR2hhWVeEbs8rx4asi1dx6wacDafnjXrbZvCtiuFsdtlMER6sNNw6fZ7qdks)
+![](https://lh5.googleusercontent.com/ucDesuFZY9FtMTbRzKALneF1eR9nB7MGLgTZxnpC4C77R1r2JYdpTpGX3Fq68pjIkZedLuzskFhAYR2hhWVeEbs8rx4asi1dx6wacDafnjXrbZvCtiuFsdtlMER6sNNw6fZ7qdks)3.
 
-1. Create a **main.py** file that creates five Students, such as…
+     3.  Create a **main.py** file that creates five Students, such as…
 
 ```
 s1 = Student(“Jones”,“Brittany”,“10”,“Graham”,“Acton”)
 s2 = Student(“Hodges”,“Alex”,“12”,“Bishop”,“Stacey”)
-s3 = Student(...
+s3 = Student(..
 ```
 
-1. Create a list of the students. For example,
+     4.  Create a list of the students. For example,
 
 ```
 student_body = [s1, s2, s3, … ]
