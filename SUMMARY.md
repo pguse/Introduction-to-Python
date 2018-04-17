@@ -9,11 +9,11 @@
 * [Working with Lists](working-with-lists.md)
 * [Working with Functions](working-with-functions.md)
 * [Working with Objects](working-with-objects.md)
+* [Working with Objects](working-with-objects.md)
 * [Introduction to Pygame](introduction-to-pygame.md)
 * [Introduction to Pygame](introduction-to-pygame.md)
 * [Algorithms - Caesar Cipher](algorithms-caesar-cipher.md)
 * [Algorithms - Breaking the Caesar Cipher](algorithms-breaking-the-caesar-cipher.md)
 * [Algorithms - Sorting](algorithms-sorting.md)
 * [Algorithm Efficiency - Big O Notation](algorithm-efficiency-big-o.md)
-* [Working with Objects](working-with-objects.md)
 
