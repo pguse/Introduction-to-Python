@@ -100,15 +100,13 @@ import mymath
 
 ## Objects in Python Assignment:\(A - 8 marks\)
 
-    1.  Add two methods to the Fraction class called **plus\(self, f\)** and **minus\(self, f\)** that will add or subtract two fractions.
+Add two methods to the Fraction class called **plus\(self, f\)** and **minus\(self, f\)** that will add or subtract two fractions.
 
-         Demonstrate how to use them in **main.py**.
-
-    2.  Create a new class called **Student** in a file named **student.py** \(see below\).
+Demonstrate how to use them in **main.py**.Create a new class called **Student** in a file named **student.py** \(see below\).
 
 ![](https://lh5.googleusercontent.com/ucDesuFZY9FtMTbRzKALneF1eR9nB7MGLgTZxnpC4C77R1r2JYdpTpGX3Fq68pjIkZedLuzskFhAYR2hhWVeEbs8rx4asi1dx6wacDafnjXrbZvCtiuFsdtlMER6sNNw6fZ7qdks)
 
-    3.  Create a **main.py** file that creates five Students, such as…
+Create a **main.py** file that creates five Students, such as…
 
 ```
 s1 = Student(“Armstrong”,“Christian”,“12”,“Bishop”,“Woloshyn”)
@@ -119,13 +117,13 @@ s5 = Student(“Hu”,“Amber”,“12”,“Graham”,“AGuse”)
 s6 = Student(“Jansz-Tatem”,“Eli”,“12”,“Baker”,“Holland-McLeod”)
 ```
 
-    4.  In the **main.py** file create a list of the students. For example,
+In the **main.py** file create a list of the students. For example,
 
 ```
 student_body = [s1, s2, s3, … ]
 ```
 
-    5.  Save your list of students, called **student\_body** to a file named **student\_body.csv**. Your file should look like the following
+Save your list of students, called **student\_body** to a file named **student\_body.csv**. Your file should look like the following
 
 _\(Notice the commas between each item\)_.
 
