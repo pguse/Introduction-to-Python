@@ -28,10 +28,10 @@ To write information to a new text file in Python, you run the following lines o
 ```
 outputFile = open('output.txt', 'w')
 outputFile.write("I have written this text to a new file named output.txt")
-outputFile.write("I have written a second line of information to output.txt")
+outputFile.write("\nI have written a second line of information to output.txt")
 ```
 
-If you look in the folder containing your Python file, you should find a new file named output.txt.
+If you look in the folder containing your Python file, you should find a new file named output.txt.  **Notice **the use of the character '\n'.  This indicates that we want the string to be written to a new line in the file.
 
 When you are finished working with files in Python, it is important to 'close' them using the following commands
 
