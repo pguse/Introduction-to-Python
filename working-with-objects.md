@@ -98,7 +98,7 @@ because the module was imported with
 import mymath
 ```
 
-## Objects in Python Assignment:\(A - 6 marks\)
+## Objects in Python Assignment:\(A - 8 marks\)
 
 1. Add two methods to the Fraction class called **plus\(self, f\)** and **minus\(self, f\)** that will add or subtract two fractions. Demonstrate how to use them in **main.py**.
 
@@ -106,25 +106,29 @@ import mymath
 
 ![](https://lh5.googleusercontent.com/ucDesuFZY9FtMTbRzKALneF1eR9nB7MGLgTZxnpC4C77R1r2JYdpTpGX3Fq68pjIkZedLuzskFhAYR2hhWVeEbs8rx4asi1dx6wacDafnjXrbZvCtiuFsdtlMER6sNNw6fZ7qdks)3.
 
-     3.  Create a **main.py** file that creates five Students, such as…
+    3.  Create a **main.py** file that creates five Students, such as…
 
 ```
-s1 = Student(“Jones”,“Brittany”,“10”,“Graham”,“Acton”)
-s2 = Student(“Hodges”,“Alex”,“12”,“Bishop”,“Stacey”)
-s3 = Student(..
+s1 = Student(“Armstrong”,“Christian”,“12”,“Bishop”,“Woloshyn”)
+s2 = Student(“Chen”,“Leo”,“12”,“Graham”,“PGuse”)
+s3 = Student(“Ding”,“Jack”,“12”,“Baker”,“PGuse”)
+s4 = Student(“Gu”,“Juliet”,“12”,“Graham”,“Stacey”)
+s5 = Student(“Hu”,“Amber”,“12”,“Graham”,“AGuse”)
+s6 = Student(“Jansz-Tatem”,“Eli”,“12”,“Baker”,“Holland-McLeod”)
 ```
 
-     4.  Create a list of the students. For example,
+    4.  In the **main.py** file create a list of the students. For example,
 
 ```
 student_body = [s1, s2, s3, … ]
 ```
 
-**Challenge:**  Save your list of students, called **student\_body** to a file named **student\_body.txt**. Your file should look like the     following \(Notice the commas between each item\).
+    5. Save your list of students, called **student\_body** to a file named **student\_body.csv**. Your file should look like the     following \(Notice the commas between each item\).
 
-| Jones, Brittany, 10, Graham, ActonHodges, Alex, 12, Bishop, Stacey |
-| :--- |
-
+```
+Jones, Brittany, 10, Graham, Acton
+Hodges, Alex, 12, Bishop, Stacey
+```
 
 **Hint:** You’ll need to create a String out of each set of Student data before writing it to the file.
 
