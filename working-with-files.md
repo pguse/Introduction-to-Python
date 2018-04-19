@@ -33,3 +33,12 @@ outputFile.write("I have written a second line of information to output.txt")
 
 If you look in the folder containing your Python file, you should find a new file named output.txt.
 
+When you are finished working with files in Python, it is important to 'close' them using the following commands
+
+```
+inputFile.close()
+outputFile.close()
+```
+
+
+
