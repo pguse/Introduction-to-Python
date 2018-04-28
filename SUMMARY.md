@@ -7,13 +7,13 @@
 * [Loops](loops.md)
 * [Working with Strings](working-with-strings.md)
 * [Working with Files](working-with-files.md)
+* Working with Files
 * [Working with Lists](working-with-lists.md)
-* [Working with Functions](working-with-functions.md)
+* Working with Files
 * [Working with Objects](working-with-objects.md)
 * [Introduction to Pygame](introduction-to-pygame.md)
-* [test](test.md)
 * [Algorithms - Caesar Cipher](algorithms-caesar-cipher.md)
 * [Algorithms - Breaking the Caesar Cipher](algorithms-breaking-the-caesar-cipher.md)
 * [Algorithms - Sorting](algorithms-sorting.md)
-* Working with Files
+* test2
 
