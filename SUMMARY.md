@@ -11,10 +11,9 @@
 * [Working with Functions](working-with-functions.md)
 * [Working with Objects](working-with-objects.md)
 * [Introduction to Pygame](introduction-to-pygame.md)
-* [Introduction to Pygame](introduction-to-pygame.md)
+* [test](test.md)
 * [Algorithms - Caesar Cipher](algorithms-caesar-cipher.md)
 * [Algorithms - Breaking the Caesar Cipher](algorithms-breaking-the-caesar-cipher.md)
 * [Algorithms - Sorting](algorithms-sorting.md)
 * Working with Files
-* [test](test.md)
 
