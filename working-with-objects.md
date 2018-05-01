@@ -72,7 +72,7 @@ produces a new **Fraction** object that the method **simplify\(\)** is then appl
 
 ## Using external files:
 
-All the files in this example:  **main.py**, **mymath.py**, and **fraction.py** must be contained in the same folder. In order to use the Fraction class in **main.py**, the line
+All the files in this example:  **main.py**, **mymath.py**, and **fraction.py** must be contained in the same folder, after downloading them from moodle. In order to use the Fraction class in **main.py**, the line
 
 ```
 from fraction import *
