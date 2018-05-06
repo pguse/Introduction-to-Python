@@ -11,11 +11,11 @@ Python works with numbers essentially just like a calculator. When you type:
 
 it automatically produces a decimal \(float-point\) value. By creating the **Fraction** class, we are going to enable Python to deal with fractions just like we might in an introductory math class. A class acts like a template or blueprint that includes **two features**:
 
-1. **Data**- often called fields
+1. **Data**- often called fields or properties
 
 2. **Methods**- what we have so far called functions
 
-The file below \(**fraction.py**\) shows an example of a **Fraction** class. It involves data \(the fields\) that represents the numerator \(**self.a**\) and denominator \(**self.b**\) of a **Fraction**. These values are initialized when the **Fraction** is created - the special Python function **\_\_init\_\_\(self, \_a, \_b\)** , called the constructor, assigns/binds the input values \_a and \_b to the field identifiers/variables \(**self.a** and **self.b**\).
+The file below \(**fraction.py**\) shows an example of a **Fraction** class. It involves data \(the fields/properties\) that represents the numerator \(**self.a**\) and denominator \(**self.b**\) of a **Fraction**. These values are initialized when the **Fraction** is created - the special Python function **\_\_init\_\_\(self, \_a, \_b\)** , called the constructor, assigns/binds the input values \_a and \_b to the field identifiers/variables \(**self.a** and **self.b**\).
 
 ![](https://lh3.googleusercontent.com/g2JJQA8XvfZKJCYG35WrWIQ0tzWO4F5m18CODRL5PXnR1BNFn5FX53lA-iGOQI-6meiAitheED5IqyxjmuhokrVq9XkEziGO-UFTjox1t_F2YwHmgPaXSTxV2hfSI1wtxGrUXRLS)
 
