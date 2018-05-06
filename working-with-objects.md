@@ -74,7 +74,7 @@ f1.prod(f2)
 
 produces a new **Fraction** object that the method **simplify\(\)** is then applied to.
 
-## Using external files:
+## Using External Files:
 
 All the files in this example:  **main.py**, **mymath.py**, and **fraction.py** must be contained in the same folder, after downloading them from moodle. In order to use the Fraction class in **main.py**, the line
 
