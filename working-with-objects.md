@@ -127,7 +127,7 @@ s6 = Student(“Jansz-Tatem”,“Eli”,“12”,“Baker”,“Holland-McLeod�
 student_body = [s1, s2, s3, … ]
 ```
 
-**Task 5: ** Save your list of students, called **student\_body** to a file named **student\_body.csv**. Your file should look like the following
+**Task 5:** Save your list of students, called **student\_body** to a file named **student\_body.csv**. Your file should look like the following
 
 _\(Notice the commas between each item\)_.
 
@@ -137,5 +137,11 @@ Chen, Leo, 12, Graham, PGuse
 ...
 ```
 
-**Hint:** You’ll need to create a String out of each set of Student data before writing it to the file.
+**Note:** You’ll need to create a String out of each set of Student data before writing it to the file.
 
+If your output file is assigned the variable **myFile**, then to add the first student to the file use the statement
+
+```
+myFile.write( str(s1) )
+
+```
