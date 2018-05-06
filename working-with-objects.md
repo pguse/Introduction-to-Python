@@ -43,6 +43,8 @@ f1 = Fraction(1,2)
 
 The values input to this method match those in the **\_\_init\_\_** function, because this is the method run when a **Fraction** is created. This is called creating an instance of the **Fraction** class or in other words f1, f2, and f3 are called **objects** of type **Fraction**.
 
+## How to Use the Methods
+
 Notice how the product of two Fractions is calculated.
 
 ```
