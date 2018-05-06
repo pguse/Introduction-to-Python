@@ -27,6 +27,8 @@ __str__(self)
 
 It **returns** the **string** that represents a particular **Fraction** when you attempt to print it out.
 
+## What is self ?
+
 The unusual part about classes in Python is the word **self**. In this example, the **Fraction** class represents any fraction. The word **self** refers to the particular fraction you have created with this class. It must be used as the **first argument** in the definition of every method and in the names of each field. Note: The word **self** never occurs when you actually call a **method**.
 
 Here is how to use the class:
