@@ -139,9 +139,12 @@ Chen, Leo, 12, Graham, PGuse
 
 **Note:** You’ll need to create a String out of each set of Student data before writing it to the file.
 
-If your output file is assigned the variable **myFile**, then to add the first student to the file use the statement
+If your output file is assigned the variable **myFile**, then to add the first student to the file use the following group of statements
 
 ```
-myFile.write( str(s1) )
+myFile = open("student_body.csv",'w')
+for s in student_body:
+    myFile.write( str(s) )
+myFile.close()
 
 ```
