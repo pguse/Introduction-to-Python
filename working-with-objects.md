@@ -139,7 +139,7 @@ Chen, Leo, 12, Graham, PGuse
 
 **Note:** You’ll need to create a **string** out of each set of Student data before writing it to the file.  The format of the **string** is determined by the **\_\_str\_\_** function in the Fraction class.
 
-If your output file is assigned the variable **myFile**, then to add the first student to the file use the following group of statements
+If your output file is assigned the variable **myFile**, then to add all the students in the list to the file use the following group of statements
 
 ```
 myFile = open("student_body.csv",'w')
