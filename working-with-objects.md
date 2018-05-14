@@ -112,7 +112,7 @@ import mymath
 
 ![](https://lh5.googleusercontent.com/ucDesuFZY9FtMTbRzKALneF1eR9nB7MGLgTZxnpC4C77R1r2JYdpTpGX3Fq68pjIkZedLuzskFhAYR2hhWVeEbs8rx4asi1dx6wacDafnjXrbZvCtiuFsdtlMER6sNNw6fZ7qdks)
 
-**Task 4:** Create a **main.py** file that creates five Students, such as… (2 amrks)
+**Task 4:** Create a **main.py** file that creates five Students, such as… (2 marks)
 
 ```
 s1 = Student(“Armstrong”,“Christian”,“12”,“Bishop”,“Woloshyn”)
