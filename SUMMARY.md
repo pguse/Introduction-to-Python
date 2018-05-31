@@ -9,7 +9,7 @@
 * [Working with Files](working-with-files.md)
 * [Working with Objects](working-with-objects.md)
 * [Introduction to Pygame](introduction-to-pygame.md)
-* [Algorithms - Efficiency - Big O](algorithm-efficiency-big-o.md)
+* [Algorithms - Efficiency - Big O](algorithms-efficiency-big-o.md)
 * [Algorithms - Accumulators - Part 1](accumulators.md)
 * [Algorithms - Accumulators - Part 2](accumulators-part-2.md)
 * [Algorithms - Caesar Cipher](algorithms-caesar-cipher.md)
