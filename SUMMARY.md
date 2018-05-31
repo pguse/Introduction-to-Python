@@ -6,6 +6,7 @@
 * [Input/Output - Keyboard](inputoutput-keyboard.md)
 * [Loops](loops.md)
 * [Working with Strings](working-with-strings.md)
+* [Working with Lists](working-with-lists.md)
 * [Working with Files](working-with-files.md)
 * [Working with Objects](working-with-objects.md)
 * [Introduction to Pygame](introduction-to-pygame.md)
