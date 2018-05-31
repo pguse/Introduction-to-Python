@@ -18,4 +18,4 @@
 * [Algorithms - Breaking the Caesar Cipher](algorithms-breaking-the-caesar-cipher.md)
 * [Algorithms - Recursion](algorithms-recursion.md)
 * [Algorithms - Sorting](algorithms-sorting.md)
-
+* [Resources](resources.md)
